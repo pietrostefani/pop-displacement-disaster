@@ -1,0 +1,43 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Dynamic Estimates of Displacement in Disaster Regions"
+  author: "Dr. Elisabetta Pietrostefani, Matt Mason, Prof. Francisco Rowe"
+  date: today
+  chapters:
+    - index.qmd
+    - preparing.qmd
+    - part: overview.qmd
+      chapters:
+        - problem1.qmd
+    - references.qmd
+
+  page-footer:
+    left: |
+      Dynamic Estimates of Displacement in Disaster Regions by Elisabetta Pietrostefani.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  site-url:  https://pietrostefani.github.io/navigatingnight
+  repo-url: https://github.com/pietrostefani/gds
+  repo-actions: [edit]
+  sharing: [twitter, facebook]
+  cover-image: night.png
+  cover-image-alt: |
+    Alternative text describing the book cover
+  twitter-card:
+    creator: "@EPietrostefani"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+    - cosmo
+    - r4gds.scss
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

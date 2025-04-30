@@ -1,0 +1,15 @@
+# Welcome {.unnumbered}
+
+This is the website for the final workshop & hackaton of Project: *Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data*, .... by Dr. Elisabetta Pietrostefani and ....from the University of Liverpool. 
+
+This is partnered with...
+
+
+The website is **free to use** and is licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/). A compilation of this web course is hosted as a GitHub repository that you can access:
+
+-   As an [html website](https://pietrostefani.github.io/navigatingnight/).
+-   As a [GitHub repository](https://github.com/pietrostefani/navigatingnight).
+
+## Contact {.unnumbered}
+
+> Elisabetta Pietrostefani - e.pietrostefani \[at\] liverpool.ac.uk Lecturer in Geographic Data Science, University of Liverpool.
