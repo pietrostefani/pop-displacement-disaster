@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data – Dynamic Estimates of Displacement in Disaster Regions</title>
+<title>Hackathon Data Guidance – Dynamic Estimates of Displacement in Disaster Regions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Data – Dynamic Estimates of Displacement in Disaster Regions">
+<meta name="twitter:title" content="Hackathon Data Guidance – Dynamic Estimates of Displacement in Disaster Regions">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@EPietrostefani">
 <meta name="twitter:card" content="summary">
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hackathon.html">Hackathon</a></li><li class="breadcrumb-item"><a href="./datasets.html">Data</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hackathon.html">Hackathon</a></li><li class="breadcrumb-item"><a href="./datasets.html">Hackathon Data Guidance</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./datasets.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Data</span></a>
+ <span class="menu-text">Hackathon Data Guidance</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -207,19 +207,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#meta-data-for-good" id="toc-meta-data-for-good" class="nav-link active" data-scroll-target="#meta-data-for-good">Meta Data for good</a></li>
-  <li><a href="#iom-dtm" id="toc-iom-dtm" class="nav-link" data-scroll-target="#iom-dtm">IOM DTM</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#data-access" id="toc-data-access" class="nav-link active" data-scroll-target="#data-access">1. Data Access</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">2. Datasets</a>
+  <ul class="collapse">
+  <li><a href="#facebook-population-and-movement-during-crisis" id="toc-facebook-population-and-movement-during-crisis" class="nav-link" data-scroll-target="#facebook-population-and-movement-during-crisis">2.1. Facebook Population and Movement During Crisis</a></li>
+  <li><a href="#iom-data" id="toc-iom-data" class="nav-link" data-scroll-target="#iom-data">2.2. IOM Data</a></li>
+  <li><a href="#contextual-data" id="toc-contextual-data" class="nav-link" data-scroll-target="#contextual-data">2.3. Contextual Data</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/pietrostefani/pop-displacement-disaster/edit/main/datasets.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hackathon.html">Hackathon</a></li><li class="breadcrumb-item"><a href="./datasets.html">Data</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hackathon.html">Hackathon</a></li><li class="breadcrumb-item"><a href="./datasets.html">Hackathon Data Guidance</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Data</h1>
+<h1 class="title">Hackathon Data Guidance</h1>
 </div>
 
 
@@ -236,20 +239,107 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="meta-data-for-good" class="level2">
-<h2 class="anchored" data-anchor-id="meta-data-for-good">Meta Data for good</h2>
-<p>https://dataforgood.facebook.com/</p>
+<p>This section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found <a href="./probstatement.html">here</a> and should be referred to regarding the event’s purpose and objectives.</p>
+<p>The human mobility datasets provided for the Hackathon fall into one of two categories: digital data (from Meta) or key informant survey data (from IOM). The table below outlines these, summarising their accessibility, processing and stability. In addition, contextual data on Pakistan is provided to help with analysis. Each dataset is outlined below, alongside any available documentation and guidance for analysis.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 11%">
+<col style="width: 23%">
+<col style="width: 7%">
+<col style="width: 20%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Data</strong></td>
+<td><strong>Provider</strong></td>
+<td><strong>Spatial Detail</strong></td>
+<td><strong>Source</strong></td>
+<td><strong>Access</strong></td>
+<td><strong>Processing</strong></td>
+<td><strong>Stability</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Facebook Population and Movement During Crisis</strong></td>
+<td>Meta</td>
+<td><p>800m tiles</p>
+<p>Admin 2</p></td>
+<td>Meta apps (mainly Facebook)</td>
+<td>Free to researchers</td>
+<td>Computational</td>
+<td>Made available after a disaster event for 90 days</td>
+</tr>
+<tr class="odd">
+<td><strong>Community Needs Identification Data</strong></td>
+<td>IOM</td>
+<td><p>Admin 2</p>
+<p>Admin 3</p>
+<p>Town/Village</p></td>
+<td>Key informants</td>
+<td>Published online (collection is time-consuming and costly)</td>
+<td>Manpower</td>
+<td>Ad Hoc reports after a disaster event</td>
+</tr>
+</tbody>
+</table>
+<section id="data-access" class="level2">
+<h2 class="anchored" data-anchor-id="data-access">1. Data Access</h2>
+<p>All the data mentioned in this document has been uploaded onto Snowflake’s systems, which can be accessed here [insert link]. At the start of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and use data within their system and will be available throughout the event to answer any queries. Participants will preferably use Snowflake to access and manipulate data, but if there are issues, the data can also be accessed here [insert link] and downloaded locally onto laptops.</p>
 </section>
-<section id="iom-dtm" class="level2">
-<h2 class="anchored" data-anchor-id="iom-dtm">IOM DTM</h2>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">2. Datasets</h2>
+<section id="facebook-population-and-movement-during-crisis" class="level3">
+<h3 class="anchored" data-anchor-id="facebook-population-and-movement-during-crisis">2.1. Facebook Population and Movement During Crisis</h3>
+<ul>
+<li><p>Meta provides these data as part of their Data for Good programme in the aftermath of humanitarian disasters. Once uploaded, these data are available to researchers and policymakers for 90 days before being removed from the Data for Good platform. The data shows the number of Facebook users located within a given spatial unit at a given time.</p></li>
+<li><p>For the Hackathon, we are using the data available in the immediate aftermath of the 2022 Pakistan floods. The data refer to the period 14 August 2022 – 7 September 2022 and are at two geographic scales: 800m tiles and aggregated to administrative level 2 geographies.</p></li>
+<li><p>These data consist of two datasets, Population During Crisis and Movement During Crisis:</p>
+<ul>
+<li><p>Population – these are population stock data, showing the number of users in each spatial unit at three snapshots: 00:00, 8:00 and 16:00 (Pacific Time). The data are removed when there are fewer than 10 observations.</p></li>
+<li><p>Movement – these are population flow data, showing the origin and destination of users between temporal points. Users’ origin and destination are chosen according to where they spent most time within each 8-hour window. For example, data recorded at 16:00 shows the flow between areas from 08:00 to 16:00. Where there are fewer than 10 observations for a flow, data are removed. The Pakistan data available for the Movement data are only at the 08:00 and 16:00 time periods, but not for the 00:00 period.</p></li>
+</ul></li>
+<li><p>The data are generally comprehensive, but there are some gaps, largely due to collection issues at Meta’s end. For example, in both the tiled and aggregated Movement data, only the 08:00 and 16:00 time stamps are available, with the 00:00 period missing. Additionally, the aggregated Population data for 20, 21 and 22 August are also missing.</p></li>
+<li><p>Both datasets contain data from a baseline period before the disaster event to compare users’ stock or flow during the crisis. The raw and percentage differences are provided within the dataset, along with a z-score to assess the statistical significance of the change from the pre-crisis baseline to the crisis period.</p></li>
+<li><p>The data is available as a series of csv files. Each file is either the tiled or aggregated data for each time stamp of each day of the Population or Movement data.</p></li>
+</ul>
+<p><strong>A guide on using these data in R can be found <a href="https://fcorowe.github.io/dfd4mobility/">here</a>.</strong></p>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="iom-data" class="level3">
+<h3 class="anchored" data-anchor-id="iom-data">2.2. IOM Data</h3>
+<ul>
+<li><p>These data are collated and published by the IOM’s Displacement Tracking Matrix (DTM) team. The primary data produced for Pakistan by the IOM in the context of the 2022 floods are the Flood Response Community Needs Identification (CNI) datasets. These data are collated and published in rounds; six rounds have been run so far, though data for Round 5 is not publicly available.</p></li>
+<li><p>Data from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below.</p></li>
+<li><p>For the Hackathon, each data round is provided. The data format varies between rounds, though each generally provides similar variables and data.</p></li>
+<li><p>Alongside each round of data, a report is also published. Reports can be found here for each round:</p>
+<ul>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-report-round-1-nov-dec-2022">Round 1 (Nov – Dec 2022)</a></p></li>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-report-round-2-jan-mar-2023">Round 2 (Jan – Mar 2023)</a></p></li>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-3-balochistan-province-may">Round 3 – Balochistan Province (May – June 2023)</a></p></li>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-3-khyber-pakhtunkhwa">Round 3 – Khyber Pakhtunkhwa Province (May – June 2023)</a></p></li>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-3-sindh-province-may-june">Round 3 – Sindh Province (May – June 2023)</a></p></li>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-4-balochistan-province">Round 4 – Balochistan Province (August 2023)</a></p></li>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-4-khyber-pakhtunkhwa">Round 4 – Khyber Pakhtunkhwa Province (August 2023)</a></p></li>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-4-sindh-province-august">Round 4 – Sindh Province (August 2023)</a></p></li>
+<li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-6-balochistan-and-khyber">Round 6 – Balochistan and Khyber Pakhtunkhwa Provinces (August 2024)</a></p></li>
+</ul></li>
+</ul>
 </section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1"></h2>
+<section id="contextual-data" class="level3">
+<h3 class="anchored" data-anchor-id="contextual-data">2.3. Contextual Data</h3>
+<ul>
+<li><p>Alongside mobility data, we have prepared a series of datasets that provide additional context to Pakistan. These data are:</p>
+<ul>
+<li><p>Spatial boundaries, sourced from <a href="https://gadm.org/data.html">GADM</a>. The shapefile boundaries for administrative levels 0, 1, 2 and 3 and the geopackage for Pakistan are included.</p>
+<p>Population estimates for Pakistan from the 2020 Global Human Settlement Layer (<a href="https://human-settlement.emergency.copernicus.eu/index.php">GHSL</a>). The data is in 100m resolution grids, cropped to Pakistan.</p>
+<p>Population estimates for Pakistan, aggregated to administrative levels 0, 1, 2, and 3. All but administrative level 3 data have variables for urban/rural and female/male/transgender populations. The data is sourced from the 2017 Pakistan Census, compiled by <a href="https://data.humdata.org/dataset/cod-ps-pak">OCHA</a>.</p>
+<p>Deprivation data from The Global Gridded Relative Deprivation Index (<a href="https://earth.gov/data-catalog/grdi-v1">GRDI</a>). The data is a raster file at 1km resolution, cropped to Pakistan. Also available is a geopackage file for this measure, aggregated to Pakistan’s administrative level 2 geographies. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed <a href="https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf">here</a>.</p></li>
+</ul></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
