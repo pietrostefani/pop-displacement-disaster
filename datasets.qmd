@@ -1,11 +1,83 @@
-# Data {.unnumbered}
+# Hackathon Data Guidance {.unnumbered}
 
-## Meta Data for good
+This section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found [here](probstatement.qmd) and should be referred to regarding the event’s purpose and objectives.
 
-https://dataforgood.facebook.com/
+The human mobility datasets provided for the Hackathon fall into one of two categories: digital data (from Meta) or key informant survey data (from IOM). The table below outlines these, summarising their accessibility, processing and stability. In addition, contextual data on Pakistan is provided to help with analysis. Each dataset is outlined below, alongside any available documentation and guidance for analysis.
 
-## IOM DTM
++------------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+-----------------+---------------------------------------------------+
+| **Data**                                             | **Provider** | **Spatial Detail** | **Source**                  | **Access**                                                 | **Processing**  | **Stability**                                     |
++------------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+-----------------+---------------------------------------------------+
+| **Facebook Population and Movement During Crisis**   | Meta         | 800m tiles         | Meta apps (mainly Facebook) | Free to researchers                                        | Computational   | Made available after a disaster event for 90 days |
+|                                                      |              |                    |                             |                                                            |                 |                                                   |
+|                                                      |              | Admin 2            |                             |                                                            |                 |                                                   |
++------------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+-----------------+---------------------------------------------------+
+| **Community Needs Identification Data**              | IOM          | Admin 2            | Key informants              | Published online (collection is time-consuming and costly) | Manpower        | Ad Hoc reports after a disaster event             |
+|                                                      |              |                    |                             |                                                            |                 |                                                   |
+|                                                      |              | Admin 3            |                             |                                                            |                 |                                                   |
+|                                                      |              |                    |                             |                                                            |                 |                                                   |
+|                                                      |              | Town/Village       |                             |                                                            |                 |                                                   |
++------------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+-----------------+---------------------------------------------------+
 
-##
+## 1. Data Access
 
-##
+All the data mentioned in this document has been uploaded onto Snowflake’s systems, which can be accessed here \[insert link\]. At the start of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and use data within their system and will be available throughout the event to answer any queries. Participants will preferably use Snowflake to access and manipulate data, but if there are issues, the data can also be accessed here \[insert link\] and downloaded locally onto laptops.
+
+## 2. Datasets
+
+### 2.1. Facebook Population and Movement During Crisis
+
+-   Meta provides these data as part of their Data for Good programme in the aftermath of humanitarian disasters. Once uploaded, these data are available to researchers and policymakers for 90 days before being removed from the Data for Good platform. The data shows the number of Facebook users located within a given spatial unit at a given time.
+
+-   For the Hackathon, we are using the data available in the immediate aftermath of the 2022 Pakistan floods. The data refer to the period 14 August 2022 – 7 September 2022 and are at two geographic scales: 800m tiles and aggregated to administrative level 2 geographies.
+
+-   These data consist of two datasets, Population During Crisis and Movement During Crisis:
+
+    -   Population – these are population stock data, showing the number of users in each spatial unit at three snapshots: 00:00, 8:00 and 16:00 (Pacific Time). The data are removed when there are fewer than 10 observations.
+
+    -   Movement – these are population flow data, showing the origin and destination of users between temporal points. Users' origin and destination are chosen according to where they spent most time within each 8-hour window. For example, data recorded at 16:00 shows the flow between areas from 08:00 to 16:00. Where there are fewer than 10 observations for a flow, data are removed. The Pakistan data available for the Movement data are only at the 08:00 and 16:00 time periods, but not for the 00:00 period.
+
+-   Both datasets contain data from a baseline period before the disaster event to compare users' stock or flow during the crisis. The raw and percentage differences are provided within the dataset, along with a z-score to assess the statistical significance of the change from the pre-crisis baseline to the crisis period.
+
+-   The data is available as a series of csv files. Each file is either the tiled or aggregated data for each time stamp of each day of the Population or Movement data.
+
+**A guide on using these data in R can be found [here](https://fcorowe.github.io/dfd4mobility/).**
+
+### 2.2. IOM Data
+
+-   These data are collated and published by the IOM’s Displacement Tracking Matrix (DTM) team. The primary data produced for Pakistan by the IOM in the context of the 2022 floods are the Flood Response Community Needs Identification (CNI) datasets. These data are collated and published in rounds; six rounds have been run so far, though data for Round 5 is not publicly available.
+
+-   Data from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below.
+
+-   For the Hackathon, each data round is provided. The data format varies between rounds, though each generally provides similar variables and data.
+
+-   Alongside each round of data, a report is also published. Reports can be found here for each round:
+
+    -   [Round 1 (Nov – Dec 2022)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-report-round-1-nov-dec-2022)
+
+    -   [Round 2 (Jan – Mar 2023)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-report-round-2-jan-mar-2023)
+
+    -   [Round 3 – Balochistan Province (May – June 2023)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-3-balochistan-province-may)
+
+    -   [Round 3 – Khyber Pakhtunkhwa Province (May – June 2023)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-3-khyber-pakhtunkhwa)
+
+    -   [Round 3 – Sindh Province (May – June 2023)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-3-sindh-province-may-june)
+
+    -   [Round 4 – Balochistan Province (August 2023)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-4-balochistan-province)
+
+    -   [Round 4 – Khyber Pakhtunkhwa Province (August 2023)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-4-khyber-pakhtunkhwa)
+
+    -   [Round 4 – Sindh Province (August 2023)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-4-sindh-province-august)
+
+    -   [Round 6 – Balochistan and Khyber Pakhtunkhwa Provinces (August 2024)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-6-balochistan-and-khyber)
+
+### 2.3. Contextual Data
+
+-   Alongside mobility data, we have prepared a series of datasets that provide additional context to Pakistan. These data are:
+
+    -   Spatial boundaries, sourced from [GADM](https://gadm.org/data.html). The shapefile boundaries for administrative levels 0, 1, 2 and 3 and the geopackage for Pakistan are included.
+
+        Population estimates for Pakistan from the 2020 Global Human Settlement Layer ([GHSL](https://human-settlement.emergency.copernicus.eu/index.php)). The data is in 100m resolution grids, cropped to Pakistan.
+
+        Population estimates for Pakistan, aggregated to administrative levels 0, 1, 2, and 3. All but administrative level 3 data have variables for urban/rural and female/male/transgender populations. The data is sourced from the 2017 Pakistan Census, compiled by [OCHA](https://data.humdata.org/dataset/cod-ps-pak).
+
+        Deprivation data from The Global Gridded Relative Deprivation Index ([GRDI](https://earth.gov/data-catalog/grdi-v1)). The data is a raster file at 1km resolution, cropped to Pakistan. Also available is a geopackage file for this measure, aggregated to Pakistan’s administrative level 2 geographies. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed [here](https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf).
