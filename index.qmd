@@ -1,14 +1,17 @@
 # Welcome {.unnumbered}
 
-This is the website for the final workshop & hackaton of Project: *Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data*, .... by Dr. Elisabetta Pietrostefani and ....from the University of Liverpool. 
 
-This is partnered with...
+The website is free to use and is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International.
 
 
-The website is **free to use** and is licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/). A compilation of this web course is hosted as a GitHub repository that you can access:
+This website hosts the materials the final workshop & hackaton of Project: *Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data* by Dr. Elisabetta Pietrostefani, Matt Mason and Prof. Francisco Rowe from the University of Liverpool. 
 
--   As an [html website](https://pietrostefani.github.io/navigatingnight/).
--   As a [GitHub repository](https://github.com/pietrostefani/navigatingnight).
+Conducted in collaboration with the International Organization for Migration’s Displacement Tracking Matrix (DTM) and Snowflake Inc., this project explores innovative ways to estimate displacement in disaster-affected regions. By comparing digital trace data with traditional data sources, it aims to develop a robust, policy-driven framework for triangulating and enhancing displacement estimates.
+
+The website is **free to use** and is licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/). A compilation of this workshop is hosted as a GitHub repository that you can access:
+
+-   As an [html website](https://pietrostefani.github.io/pop-displacement-disaster).
+-   As a [GitHub repository](https://github.com/pietrostefani/pop-displacement-disaster).
 
 ## Contact {.unnumbered}
 
