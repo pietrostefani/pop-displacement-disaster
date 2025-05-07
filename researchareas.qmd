@@ -1,2 +1,43 @@
 # Research Areas {.unnumbered}
 
+Participants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the **week of May 12.**
+
+All teams are required to use **at least one of the provided datasets** (e.g., Meta, IOM). Given the limited timeframe of the Hackathon, the use of **additional datasets is generally discouraged**; however, if you have a specific data source in mind that supports your concept, please consult the organisers in advance. The organising team is available to answer any questions and provide further guidance in the lead-up to the event.
+
+## Event-Based or Rapid Response: Developing Key Indicators
+
+Focus on generating timely, actionable indicators from Facebook and IOM data to support immediate disaster response operations.
+
+-   Develop key indicators from Meta data such as displacement rates, volume of movement, identification of vulnerable populations, or most affected regions.
+
+-   Explore how these indicators compare with—or can be enriched by—IOM data collected in reference to the 2022 flooding event in Pakistan.
+
+-   What aspects of local population, their movements and geographical context are most useful to humanitarian responders in the first hours and days of a disaster?
+
+## Learning from the Past: Patterns and Resilience
+
+Analyse data to identify behavioural trends and resilience patterns from the 2022 floods to today (IOM Pakistan Flood Responses Rounds 1-6).
+
+-   Are there repeated behavioural patterns in terms of population movement, key origins, key destinations and population distribution across different flood events in Pakistan?
+
+-   Which regions show higher levels of resilience, and what factors contribute to that resilience (e.g., infrastructure, demographics, preparedness)?
+
+-   Use comparative analysis to highlight learnings that can inform future planning and interventions.
+
+## Predicting Future Movement: Mobility Modelling
+
+Develop predictive models to forecast displacement patterns in future disaster scenarios by leveraging social, economic, and geographic indicators, using data from the International Organization for Migration (IOM) and Facebook (Meta) mobility data.
+
+-   What kinds of areas are most likely to receive displaced populations? (more vulnerable communities?)
+
+-   Can we identify a systematic set of predictors for where people move from and to during disasters?
+
+-   How can the information extracted from these analyses be used to improve preparedness and resource allocation in high-risk regions and destination community areas.
+
+## Relationship between Flood Severity & Extent of Displacement
+
+-   How are flood severity metrics associated with higher displacement volumes or longer displacement durations?
+
+-   Can threshold points in flood impact metrics be identified? That is points beyond which displacement becomes significantly more likely
+
+-   How do displacement outcomes differ in high-severity vs. low-severity flood zones?

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Dynamic Estimates of Displacement in Disaster Regions",
     "section": "",
-    "text": "Welcome\nThis website hosts the materials the final workshop & hackaton of Project: Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data by Dr. Elisabetta Pietrostefani, Matt Mason and Prof. Francisco Rowe from the University of Liverpool.\nConducted in collaboration with the International Organization for Migration’s Displacement Tracking Matrix (DTM) and Snowflake Inc., this project explores innovative ways to estimate displacement in disaster-affected regions. By comparing digital trace data with traditional data sources, it aims to develop a robust, policy-driven framework for triangulating and enhancing displacement estimates.\nThe website is free to use and is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International.",
+    "text": "Welcome\nThis website hosts the materials the final workshop & hackaton of Project: Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data by Dr. Elisabetta Pietrostefani, Matt Mason and Prof. Francisco Rowe from the University of Liverpool and Hong Tran-Jones from IOM UN Migration - Displacement Tracking Matrix.\nConducted in collaboration with the International Organization for Migration’s Displacement Tracking Matrix (DTM) and Snowflake Inc., this project explores innovative ways to estimate displacement in disaster-affected regions. By comparing digital trace data with traditional data sources, it aims to develop a robust, policy-driven framework for triangulating and enhancing displacement estimates.\nThe website is free to use and is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International.",
     "crumbs": [
       "Welcome"
     ]
@@ -17,6 +17,158 @@
     "text": "Contact\n\nElisabetta Pietrostefani - e.pietrostefani [at] liverpool.ac.uk Lecturer in Geographic Data Science, University of Liverpool.",
     "crumbs": [
       "Welcome"
+    ]
+  },
+  {
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "The global challenge of internal displacement, exacerbated by conflict, climate-induced natural hazards and disasters, requires innovative and collaborative approaches to ensure effective responses. As of 2025, displacement continues to surge globally—with 3.7 million people uprooted within Ukraine due to conflict, 18.8 million internally displaced across the Horn of Africa from a mix of drought and violence, and millions more affected annually in South and Southeast Asia, where disasters like cyclones triggered at least 1.8 million displacements in 2023 alone. These figures are a stark reminder of the need for timely, accurate, and spatially detailed data and accessible ways to process it to inform humanitarian action and policy.\nThis project—led by the University of Liverpool, IOM’s Displacement Tracking Matrix and Snowflake Inc. —compares digital trace data with traditional sources to triangulate and improve displacement estimates.\nBy leveraging these diverse datasets, the project aims to enhance the precision and reliability of displacement estimates. Using Ukraine as an initial case study, this approach illustrates the ability to generate actionable insights in diverse and complex settings requiring rapid data insights, policy and humanitarian responses. During the hackathon, the framework will be applied to a real-world climate-induced hazard scenario—the Pakistan floods of August 2022—to support timely, data-driven disaster response efforts. This work has been developed in close partnership with operational agencies, ensuring its relevance to real-world needs and its potential to inform evidence-based decision-making.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "hackathon.html",
+    "href": "hackathon.html",
+    "title": "Hackathon",
+    "section": "",
+    "text": "Building on work by the University of Liverpool and IOM using digital data to track displacement in conflict settings, the Hackathon explores how similar approaches can be applied in the context of climate-induced natural hazards. In the aftermath of such disasters, understanding internal displacement patterns is vital for effective humanitarian response. While traditional survey-based methods, like those used by IOM, offer valuable insights in informing operational responses to mitigate the effect of disasters, they often take time to develop and be fully operational. Digital-trace data present opportunities for more timely, detailed, and dynamic tracking of population movements before and after climate events, to inform rapid response operations and support spatially targeted interventions.\nDuring the Hackathon, participants will utilise Meta’s “Facebook Movement During Crisis” and “Facebook Population During Crisis” data derived from mobile phone location records, alongside IOM’s displacement data. The Facebook Movement dataset records the movements of Facebook users, showing how people travel between different areas during a crisis. It includes both the typical movement patterns observed before the crisis and the actual movements during the event, allowing for a comparison between the two. The Population dataset includes information about the number of active Facebook users in a specific area during a crisis, the typical number of active users in that area before the crisis, and the difference between these two values. By integrating these datasets with traditional sources and socio-economic variables, teams will explore innovative approaches to enhance disaster response, optimise resource allocation, and develop predictive models for future crises.",
+    "crumbs": [
+      "Hackathon"
+    ]
+  },
+  {
+    "objectID": "casestudy.html",
+    "href": "casestudy.html",
+    "title": "Case-study",
+    "section": "",
+    "text": "The specific case study for this Hackathon will be the floods that struck Pakistan in 2022. Between June and October of that year, unprecedented monsoon rains affected over 33 million people across the country, resulting in 1,739 deaths and an estimated $40 billion in property damage.\nThis event was selected for its large-scale humanitarian and economic impact, and the availability of high-quality data from both the International Organization for Migration (IOM) and Meta. These datasets provide an opportunity for participants to compare, combine, and analyse real-world information in a meaningful way.\nFocusing on a disaster aligns with the Hackathon’s broader goal: addressing challenges that are becoming increasingly frequent due to climate change. Floods, in particular, represent a recurring threat in Pakistan, making this case both historically relevant and urgently contemporary and is one of the types of disaster events recording the greatest frequency worldwide.",
+    "crumbs": [
+      "Hackathon",
+      "Case-study"
+    ]
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Data",
+    "section": "",
+    "text": "Meta Data for good\nhttps://dataforgood.facebook.com/",
+    "crumbs": [
+      "Hackathon",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "datasets.html#iom-dtm",
+    "href": "datasets.html#iom-dtm",
+    "title": "Data",
+    "section": "IOM DTM",
+    "text": "IOM DTM",
+    "crumbs": [
+      "Hackathon",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "output.html",
+    "href": "output.html",
+    "title": "Output",
+    "section": "",
+    "text": "Pre-Hackathon Meetings\nTwo pre-Hackathon meeting will take place online.",
+    "crumbs": [
+      "Hackathon",
+      "Output"
+    ]
+  },
+  {
+    "objectID": "output.html#pre-hackathon-meetings",
+    "href": "output.html#pre-hackathon-meetings",
+    "title": "Output",
+    "section": "",
+    "text": "Team Formation & Problem Selection: Participants meet their teammates and choose a problem statement to work on.\nSnowflake & Data Training: This session will cover:\n\nWhere the data is located and how to access it\nUsing Jupyter notebooks in Snowflake\nHow to query, manipulate, and download data for local use if needed\n3–4 practical examples of data manipulation and visualisation tools in Snowflake",
+    "crumbs": [
+      "Hackathon",
+      "Output"
+    ]
+  },
+  {
+    "objectID": "output.html#what-groups-should-keep-in-mind",
+    "href": "output.html#what-groups-should-keep-in-mind",
+    "title": "Output",
+    "section": "What Groups should keep in mind",
+    "text": "What Groups should keep in mind\nParticipants will focus on triangulating key indicators of displacement and presenting their findings in clear, accessible formats that can inform both policymakers and humanitarian responders. The goal is to develop a compelling “Message + Infographic (Map or Other)”—a concise narrative supported by data visualisation —that can serve as a proof of concept for improving disaster response in future scenarios.\n\nInfographic: Most effective visualisations are usually a combination of images: maps + plots + icons, etc.\nCode: teams are strongly encouraged to submit any code developed during the Hackathon. This may include the creation of a GitHub repository to share scripts, data pipelines, or analysis workflows. Open and well-documented code will help ensure the solutions are reusable and scalable for future disaster response efforts. UoL may implement the proposed indicators into a software package and is eager to take the lead in developing this package as part of a collaborative effort.\n\nThis Hackathon offers an opportunity to contribute to tools and strategies that could significantly improve disaster response and resilience, not just in Pakistan but globally.",
+    "crumbs": [
+      "Hackathon",
+      "Output"
+    ]
+  },
+  {
+    "objectID": "output.html#output-to-be-submitted",
+    "href": "output.html#output-to-be-submitted",
+    "title": "Output",
+    "section": "Output to be submitted",
+    "text": "Output to be submitted\nEach group should prepare a short presentation (approximately 5 slides) to showcase their work at the end of the Hackathon. Emphasis should be placed on how effectively the findings are communicated. In addition, teams are strongly encouraged to submit any code developed during the Hackathon.",
+    "crumbs": [
+      "Hackathon",
+      "Output"
+    ]
+  },
+  {
+    "objectID": "researchareas.html",
+    "href": "researchareas.html",
+    "title": "Research Areas",
+    "section": "",
+    "text": "Event-Based or Rapid Response: Developing Key Indicators\nParticipants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the week of May 12.\nAll teams are required to use at least one of the provided datasets (e.g., Meta, IOM). Given the limited timeframe of the Hackathon, the use of additional datasets is generally discouraged; however, if you have a specific data source in mind that supports your concept, please consult the organisers in advance. The organising team is available to answer any questions and provide further guidance in the lead-up to the event.\nFocus on generating timely, actionable indicators from Facebook and IOM data to support immediate disaster response operations.",
+    "crumbs": [
+      "Hackathon",
+      "Research Areas"
+    ]
+  },
+  {
+    "objectID": "researchareas.html#event-based-or-rapid-response-developing-key-indicators",
+    "href": "researchareas.html#event-based-or-rapid-response-developing-key-indicators",
+    "title": "Research Areas",
+    "section": "",
+    "text": "Develop key indicators from Meta data such as displacement rates, volume of movement, identification of vulnerable populations, or most affected regions.\nExplore how these indicators compare with—or can be enriched by—IOM data collected in reference to the 2022 flooding event in Pakistan.\nWhat aspects of local population, their movements and geographical context are most useful to humanitarian responders in the first hours and days of a disaster?",
+    "crumbs": [
+      "Hackathon",
+      "Research Areas"
+    ]
+  },
+  {
+    "objectID": "researchareas.html#learning-from-the-past-patterns-and-resilience",
+    "href": "researchareas.html#learning-from-the-past-patterns-and-resilience",
+    "title": "Research Areas",
+    "section": "Learning from the Past: Patterns and Resilience",
+    "text": "Learning from the Past: Patterns and Resilience\nAnalyse data to identify behavioural trends and resilience patterns from the 2022 floods to today (IOM Pakistan Flood Responses Rounds 1-6).\n\nAre there repeated behavioural patterns in terms of population movement, key origins, key destinations and population distribution across different flood events in Pakistan?\nWhich regions show higher levels of resilience, and what factors contribute to that resilience (e.g., infrastructure, demographics, preparedness)?\nUse comparative analysis to highlight learnings that can inform future planning and interventions.",
+    "crumbs": [
+      "Hackathon",
+      "Research Areas"
+    ]
+  },
+  {
+    "objectID": "researchareas.html#predicting-future-movement-mobility-modelling",
+    "href": "researchareas.html#predicting-future-movement-mobility-modelling",
+    "title": "Research Areas",
+    "section": "Predicting Future Movement: Mobility Modelling",
+    "text": "Predicting Future Movement: Mobility Modelling\nDevelop predictive models to forecast displacement patterns in future disaster scenarios by leveraging social, economic, and geographic indicators, using data from the International Organization for Migration (IOM) and Facebook (Meta) mobility data.\n\nWhat kinds of areas are most likely to receive displaced populations? (more vulnerable communities?)\nCan we identify a systematic set of predictors for where people move from and to during disasters?\nHow can the information extracted from these analyses be used to improve preparedness and resource allocation in high-risk regions and destination community areas.",
+    "crumbs": [
+      "Hackathon",
+      "Research Areas"
+    ]
+  },
+  {
+    "objectID": "researchareas.html#relationship-between-flood-severity-extent-of-displacement",
+    "href": "researchareas.html#relationship-between-flood-severity-extent-of-displacement",
+    "title": "Research Areas",
+    "section": "Relationship between Flood Severity & Extent of Displacement",
+    "text": "Relationship between Flood Severity & Extent of Displacement\n\nHow are flood severity metrics associated with higher displacement volumes or longer displacement durations?\nCan threshold points in flood impact metrics be identified? That is points beyond which displacement becomes significantly more likely\nHow do displacement outcomes differ in high-severity vs. low-severity flood zones?",
+    "crumbs": [
+      "Hackathon",
+      "Research Areas"
     ]
   }
 ]
