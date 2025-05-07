@@ -36,6 +36,8 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
     -   Movement – these are population flow data, showing the origin and destination of users between temporal points. Users' origin and destination are chosen according to where they spent most time within each 8-hour window. For example, data recorded at 16:00 shows the flow between areas from 08:00 to 16:00. Where there are fewer than 10 observations for a flow, data are removed. The Pakistan data available for the Movement data are only at the 08:00 and 16:00 time periods, but not for the 00:00 period.
 
+-   The data are generally comprehensive, but there are some gaps, largely due to collection issues at Meta's end. For example, in both the tiled and aggregated Movement data, only the 08:00 and 16:00 time stamps are available, with the 00:00 period missing. Additionally, the aggregated Population data for 20, 21 and 22 August are also missing.
+
 -   Both datasets contain data from a baseline period before the disaster event to compare users' stock or flow during the crisis. The raw and percentage differences are provided within the dataset, along with a z-score to assess the statistical significance of the change from the pre-crisis baseline to the crisis period.
 
 -   The data is available as a series of csv files. Each file is either the tiled or aggregated data for each time stamp of each day of the Population or Movement data.
