@@ -8,10 +8,15 @@ book:
   date: today
   chapters:
     - index.qmd
-    - preparing.qmd
-    - part: overview.qmd
+    - overview.qmd
+    - workshop.qmd
+    - part: hackathon.qmd
       chapters:
-        - problem1.qmd
+        - probstatement.qmd
+        - casestudy.qmd
+        - datasets.qmd
+        - output.qmd
+        - researchareas.qmd
     - references.qmd
 
   page-footer:
@@ -19,17 +24,19 @@ book:
       Dynamic Estimates of Displacement in Disaster Regions by Elisabetta Pietrostefani.
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
-  site-url:  https://pietrostefani.github.io/navigatingnight
-  repo-url: https://github.com/pietrostefani/gds
+  site-url:  https://pietrostefani.github.io/pop-displacement-disaster
+  repo-url: https://github.com/pietrostefani/pop-displacement-disaster
   repo-actions: [edit]
   sharing: [twitter, facebook]
-  cover-image: night.png
+  cover-image: Post_.jpg
   cover-image-alt: |
     Alternative text describing the book cover
   twitter-card:
     creator: "@EPietrostefani"
 
 bibliography: references.bib
+margin-header: |
+  ![](/margin-header2.png)
 
 format:
   html:

@@ -1,17 +1,10 @@
 # Welcome {.unnumbered}
 
+This website hosts the materials the final workshop & hackaton of Project: **Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data** by Dr. Elisabetta Pietrostefani, Matt Mason and Prof. Francisco Rowe from the University of Liverpool. 
 
-The website is free to use and is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International.
+Conducted in collaboration with the [International Organization for Migration’s Displacement Tracking Matrix (DTM)](https://dtm.iom.int/) and [Snowflake Inc.](https://www.snowflake.com/en/company/overview/end-data-disparity/), this project explores innovative ways to estimate displacement in disaster-affected regions. By comparing digital trace data with traditional data sources, it aims to develop a robust, policy-driven framework for triangulating and enhancing displacement estimates.
 
-
-This website hosts the materials the final workshop & hackaton of Project: *Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data* by Dr. Elisabetta Pietrostefani, Matt Mason and Prof. Francisco Rowe from the University of Liverpool. 
-
-Conducted in collaboration with the International Organization for Migration’s Displacement Tracking Matrix (DTM) and Snowflake Inc., this project explores innovative ways to estimate displacement in disaster-affected regions. By comparing digital trace data with traditional data sources, it aims to develop a robust, policy-driven framework for triangulating and enhancing displacement estimates.
-
-The website is **free to use** and is licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/). A compilation of this workshop is hosted as a GitHub repository that you can access:
-
--   As an [html website](https://pietrostefani.github.io/pop-displacement-disaster).
--   As a [GitHub repository](https://github.com/pietrostefani/pop-displacement-disaster).
+The website is **free to use** and is licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ## Contact {.unnumbered}
 
