@@ -181,5 +181,37 @@
       "Hackathon",
       "Hackathon Data Guidance"
     ]
+  },
+  {
+    "objectID": "dataaccess.html",
+    "href": "dataaccess.html",
+    "title": "Data access",
+    "section": "",
+    "text": "Coming Soon",
+    "crumbs": [
+      "Snowflake",
+      "Data access"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Coming Soon",
+    "crumbs": [
+      "Snowflake",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "snowflake.html",
+    "href": "snowflake.html",
+    "title": "Snowflake",
+    "section": "",
+    "text": "Coming Soon",
+    "crumbs": [
+      "Snowflake"
+    ]
   }
 ]

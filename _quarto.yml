@@ -17,6 +17,10 @@ book:
         - datasets.qmd
         - output.qmd
         - researchareas.qmd
+    - part: snowflake.qmd
+      chapters:
+        - dataaccess.qmd
+        - resources.qmd
     - references.qmd
 
   page-footer:
