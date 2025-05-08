@@ -5,3 +5,7 @@ The global challenge of internal displacement, exacerbated by conflict, climate-
 This project—led by the University of Liverpool, IOM’s Displacement Tracking Matrix and Snowflake Inc. —compares digital trace data with traditional sources to triangulate and improve displacement estimates.
 
 By leveraging these diverse datasets, the project aims to enhance the precision and reliability of displacement estimates. Using Ukraine as an initial case study, this approach illustrates the ability to generate actionable insights in diverse and complex settings requiring rapid data insights, policy and humanitarian responses. During the hackathon, the framework will be applied to a real-world climate-induced hazard scenario—the Pakistan floods of August 2022—to support timely, data-driven disaster response efforts. This work has been developed in close partnership with operational agencies, ensuring its relevance to real-world needs and its potential to inform evidence-based decision-making.
+
+<div style="text-align: center;">
+  <img src="img/LIV ILLU_LAYOUT_A1_FINAL.jpg" width="400">
+</div>

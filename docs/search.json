@@ -121,7 +121,7 @@
     "href": "researchareas.html",
     "title": "Research Areas",
     "section": "",
-    "text": "Event-Based or Rapid Response: Developing Key Indicators\nParticipants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the week of May 12.\nAll teams are required to use at least one of the provided datasets (e.g., Meta, IOM). Given the limited timeframe of the Hackathon, the use of additional datasets is generally discouraged; however, if you have a specific data source in mind that supports your concept, please consult the organisers in advance. The organising team is available to answer any questions and provide further guidance in the lead-up to the event.\nFocus on generating timely, actionable indicators from Facebook and IOM data to support immediate disaster response operations.",
+    "text": "1. Event-Based or Rapid Response: Developing Key Indicators\nParticipants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the week of May 12.\nAll teams are required to use at least one of the provided datasets (e.g., Meta, IOM). Given the limited timeframe of the Hackathon, the use of additional datasets is generally discouraged; however, if you have a specific data source in mind that supports your concept, please consult the organisers in advance. The organising team is available to answer any questions and provide further guidance in the lead-up to the event.\nFocus on generating timely, actionable indicators from Facebook and IOM data to support immediate disaster response operations.",
     "crumbs": [
       "Hackathon",
       "Research Areas"
@@ -142,8 +142,8 @@
     "objectID": "researchareas.html#learning-from-the-past-patterns-and-resilience",
     "href": "researchareas.html#learning-from-the-past-patterns-and-resilience",
     "title": "Research Areas",
-    "section": "Learning from the Past: Patterns and Resilience",
-    "text": "Learning from the Past: Patterns and Resilience\nAnalyse data to identify behavioural trends and resilience patterns from the 2022 floods to today (IOM Pakistan Flood Responses Rounds 1-6).\n\nAre there repeated behavioural patterns in terms of population movement, key origins, key destinations and population distribution across different flood events in Pakistan?\nWhich regions show higher levels of resilience, and what factors contribute to that resilience (e.g., infrastructure, demographics, preparedness)?\nUse comparative analysis to highlight learnings that can inform future planning and interventions.",
+    "section": "2. Learning from the Past: Patterns and Resilience",
+    "text": "2. Learning from the Past: Patterns and Resilience\nAnalyse data to identify behavioural trends and resilience patterns from the 2022 floods to today (IOM Pakistan Flood Responses Rounds 1-6).\n\nAre there repeated behavioural patterns in terms of population movement, key origins, key destinations and population distribution across different flood events in Pakistan?\nWhich regions show higher levels of resilience, and what factors contribute to that resilience (e.g., infrastructure, demographics, preparedness)?\nUse comparative analysis to highlight learnings that can inform future planning and interventions.",
     "crumbs": [
       "Hackathon",
       "Research Areas"
@@ -153,8 +153,8 @@
     "objectID": "researchareas.html#predicting-future-movement-mobility-modelling",
     "href": "researchareas.html#predicting-future-movement-mobility-modelling",
     "title": "Research Areas",
-    "section": "Predicting Future Movement: Mobility Modelling",
-    "text": "Predicting Future Movement: Mobility Modelling\nDevelop predictive models to forecast displacement patterns in future disaster scenarios by leveraging social, economic, and geographic indicators, using data from the International Organization for Migration (IOM) and Facebook (Meta) mobility data.\n\nWhat kinds of areas are most likely to receive displaced populations? (more vulnerable communities?)\nCan we identify a systematic set of predictors for where people move from and to during disasters?\nHow can the information extracted from these analyses be used to improve preparedness and resource allocation in high-risk regions and destination community areas.",
+    "section": "3. Predicting Future Movement: Mobility Modelling",
+    "text": "3. Predicting Future Movement: Mobility Modelling\nDevelop predictive models to forecast displacement patterns in future disaster scenarios by leveraging social, economic, and geographic indicators, using data from the International Organization for Migration (IOM) and Facebook (Meta) mobility data.\n\nWhat kinds of areas are most likely to receive displaced populations? (more vulnerable communities?)\nCan we identify a systematic set of predictors for where people move from and to during disasters?\nHow can the information extracted from these analyses be used to improve preparedness and resource allocation in high-risk regions and destination community areas.",
     "crumbs": [
       "Hackathon",
       "Research Areas"
@@ -164,8 +164,8 @@
     "objectID": "researchareas.html#relationship-between-flood-severity-extent-of-displacement",
     "href": "researchareas.html#relationship-between-flood-severity-extent-of-displacement",
     "title": "Research Areas",
-    "section": "Relationship between Flood Severity & Extent of Displacement",
-    "text": "Relationship between Flood Severity & Extent of Displacement\n\nHow are flood severity metrics associated with higher displacement volumes or longer displacement durations?\nCan threshold points in flood impact metrics be identified? That is points beyond which displacement becomes significantly more likely\nHow do displacement outcomes differ in high-severity vs. low-severity flood zones?",
+    "section": "4. Relationship between Flood Severity & Extent of Displacement",
+    "text": "4. Relationship between Flood Severity & Extent of Displacement\n\nHow are flood severity metrics associated with higher displacement volumes or longer displacement durations?\nCan threshold points in flood impact metrics be identified? That is points beyond which displacement becomes significantly more likely\nHow do displacement outcomes differ in high-severity vs. low-severity flood zones?",
     "crumbs": [
       "Hackathon",
       "Research Areas"
