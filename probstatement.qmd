@@ -1,6 +1,6 @@
 # Problem statement {.unnumbered}
 
-Building on work by the University of Liverpool and IOM using digital data to track displacement in **conflict** settings, the Hackathon explores how similar approaches can be applied in the context of **climate-induced natural hazards**. In the aftermath of such disasters, understanding internal displacement patterns is vital for effective humanitarian response. 
+Building on work by the University of Liverpool and IOM using digital data to track displacement in **conflict** settings, the Hackathon explores how similar approaches can be applied in the context of **climate-induced natural hazards**. In the aftermath of such disasters, understanding internal displacement patterns is vital for effective humanitarian response.
 
 While **traditional survey-based methods**, like those used by IOM, offer valuable insights in informing operational responses to mitigate the effect of disasters, they often take time to develop and be fully operational. **Digital-trace data present** opportunities for more timely, detailed, and dynamic tracking of population movements before and after climate events, to inform rapid response operations and support spatially targeted interventions.
 
