@@ -24,7 +24,7 @@
     "href": "overview.html",
     "title": "Overview",
     "section": "",
-    "text": "The global challenge of internal displacement, exacerbated by conflict, climate-induced natural hazards and disasters, requires innovative and collaborative approaches to ensure effective responses. As of 2025, displacement continues to surge globally—with 3.7 million people uprooted within Ukraine due to conflict, 18.8 million internally displaced across the Horn of Africa from a mix of drought and violence, and millions more affected annually in South and Southeast Asia, where disasters like cyclones triggered at least 1.8 million displacements in 2023 alone. These figures are a stark reminder of the need for timely, accurate, and spatially detailed data and accessible ways to process it to inform humanitarian action and policy.\nThis project—led by the University of Liverpool, IOM’s Displacement Tracking Matrix and Snowflake Inc. —compares digital trace data with traditional sources to triangulate and improve displacement estimates.\nBy leveraging these diverse datasets, the project aims to enhance the precision and reliability of displacement estimates. Using Ukraine as an initial case study, this approach illustrates the ability to generate actionable insights in diverse and complex settings requiring rapid data insights, policy and humanitarian responses. During the hackathon, the framework will be applied to a real-world climate-induced hazard scenario—the Pakistan floods of August 2022—to support timely, data-driven disaster response efforts. This work has been developed in close partnership with operational agencies, ensuring its relevance to real-world needs and its potential to inform evidence-based decision-making.",
+    "text": "The global challenge of internal displacement, exacerbated by conflict, climate-induced natural hazards and disasters, requires innovative and collaborative approaches to ensure effective responses. As of 2025, displacement continues to surge globally—with 3.7 million people uprooted within Ukraine due to conflict, 18.8 million internally displaced across the Horn of Africa from a mix of drought and violence, and millions more affected annually in South and Southeast Asia, where disasters like cyclones triggered at least 1.8 million displacements in 2023 alone. These figures are a stark reminder of the need for timely, accurate, and spatially detailed data and accessible ways to process it to inform humanitarian action and policy.\nThis project—led by the Geographic Data Science Lab at the University of Liverpool, IOM’s Displacement Tracking Matrix and Snowflake’s End Data Disparity initiative —compares digital trace data with traditional sources to triangulate and improve displacement estimates.\nBy leveraging these diverse datasets, the project aims to enhance the precision and reliability of displacement estimates.\nUsing Ukraine as an initial case study, this approach illustrates the ability to generate actionable insights in diverse and complex settings requiring rapid data insights, policy and humanitarian responses. During the hackathon, the framework will be applied to a real-world climate-induced hazard scenario—the Pakistan floods of August 2022—to support timely, data-driven disaster response efforts.\nThis work has been developed in close partnership with operational agencies, ensuring its relevance to real-world needs and its potential to inform evidence-based decision-making.",
     "crumbs": [
       "Overview"
     ]
@@ -212,6 +212,36 @@
     "text": "Coming Soon",
     "crumbs": [
       "Snowflake"
+    ]
+  },
+  {
+    "objectID": "workshop.html",
+    "href": "workshop.html",
+    "title": "Workshop",
+    "section": "",
+    "text": "9:00–11:00\nA workshop fostering dialogue with key international stakeholders focusing on key added value and limitations of digital trace data for humanitarian action with illustrations. The workshop will be followed by a hackathon where teams use displacement estimates derived from digital trace data for humanitarian action.",
+    "crumbs": [
+      "Workshop"
+    ]
+  },
+  {
+    "objectID": "workshop.html#section",
+    "href": "workshop.html#section",
+    "title": "Workshop",
+    "section": "",
+    "text": "9:00–9:30 – Welcome, Introductions & Agenda – Prof. Francisco Rowe (UoL)\n9:30–9:50 – Assessing Non-traditional Data Sources – Kate Hokinson (OCHA)\n\n9:50–10:10 – Data and findings from the project – Dr. Elisabetta Pietrostefani (UoL)\n10:10–10:30 – Lessons learned from the project Digital Trace Data for Population Displacement – Matt Mason (UoL)\n10:30–10:45 – Questions & Discussion\n\n\n10:45–11:00 – Coffee Break",
+    "crumbs": [
+      "Workshop"
+    ]
+  },
+  {
+    "objectID": "workshop.html#section-1",
+    "href": "workshop.html#section-1",
+    "title": "Workshop",
+    "section": "11:00–13:00",
+    "text": "11:00–13:00\n\n11:00–11:20 – Using Facebook Movement During Crisis – Dr. Carmen Cabrera-Arnau & Prof. Francisco Rowe\n\n11:20–11:30 – Hackathon Problem Statements -\n11:30–11:50 – Facebook Population and Movement Data – Matt Mason (UoL)\n11:50–12:10 – IOM Pakistan Data – Ellen Van de Weghe (IOM Pakistan)\n12:10–12:40 – Accessing Your Data and Creating an Infographic: A Short Demo using Hackathon Data – Euan Newlands (Snowflake)\n12:40–13:00 – Questions & Discussion",
+    "crumbs": [
+      "Workshop"
     ]
   }
 ]
