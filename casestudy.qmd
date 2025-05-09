@@ -5,3 +5,10 @@ The specific case study for this Hackathon will be the floods that struck Pakist
 This event was selected for its large-scale humanitarian and economic impact, and the availability of high-quality data from both the International Organization for Migration (IOM) and Meta. These datasets provide an opportunity for participants to compare, combine, and analyse real-world information in a meaningful way.
 
 Focusing on a disaster aligns with the Hackathon’s broader goal: addressing challenges that are becoming increasingly frequent due to climate change. Floods, in particular, represent a recurring threat in Pakistan, making this case both historically relevant and urgently contemporary and is one of the types of disaster events recording the greatest frequency worldwide.
+
+::: {.callout-note title="More on Pakistan Floods"}
+You can find more information on the Pakistan floods at the following sources and beyond:
+
+- [IOM Displacement Tracking Matrix](https://dtm.iom.int/pakistan)
+- [Humanitarian Data Exchange - Pakistan](https://data.humdata.org/group/pak)
+:::

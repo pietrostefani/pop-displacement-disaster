@@ -44,7 +44,7 @@
     "href": "casestudy.html",
     "title": "Case-study",
     "section": "",
-    "text": "The specific case study for this Hackathon will be the floods that struck Pakistan in 2022. Between June and October of that year, unprecedented monsoon rains affected over 33 million people across the country, resulting in 1,739 deaths and an estimated $40 billion in property damage.\nThis event was selected for its large-scale humanitarian and economic impact, and the availability of high-quality data from both the International Organization for Migration (IOM) and Meta. These datasets provide an opportunity for participants to compare, combine, and analyse real-world information in a meaningful way.\nFocusing on a disaster aligns with the Hackathon’s broader goal: addressing challenges that are becoming increasingly frequent due to climate change. Floods, in particular, represent a recurring threat in Pakistan, making this case both historically relevant and urgently contemporary and is one of the types of disaster events recording the greatest frequency worldwide.",
+    "text": "The specific case study for this Hackathon will be the floods that struck Pakistan in 2022. Between June and October of that year, unprecedented monsoon rains affected over 33 million people across the country, resulting in 1,739 deaths and an estimated $40 billion in property damage.\nThis event was selected for its large-scale humanitarian and economic impact, and the availability of high-quality data from both the International Organization for Migration (IOM) and Meta. These datasets provide an opportunity for participants to compare, combine, and analyse real-world information in a meaningful way.\nFocusing on a disaster aligns with the Hackathon’s broader goal: addressing challenges that are becoming increasingly frequent due to climate change. Floods, in particular, represent a recurring threat in Pakistan, making this case both historically relevant and urgently contemporary and is one of the types of disaster events recording the greatest frequency worldwide.\n\n\n\n\n\n\nMore on Pakistan Floods\n\n\n\nYou can find more information on the Pakistan floods at the following sources and beyond:\n\nIOM Displacement Tracking Matrix\nHumanitarian Data Exchange - Pakistan",
     "crumbs": [
       "Hackathon",
       "Case-study"
@@ -53,12 +53,12 @@
   {
     "objectID": "datasets.html",
     "href": "datasets.html",
-    "title": "Hackathon Data Guidance",
+    "title": "Data",
     "section": "",
     "text": "1. Data Access\nThis section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found here and should be referred to regarding the event’s purpose and objectives.\nThe human mobility datasets provided for the Hackathon fall into one of two categories: digital data (from Meta) or key informant survey data (from IOM). The table below outlines these, summarising their accessibility, processing and stability. In addition, contextual data on Pakistan is provided to help with analysis. Each dataset is outlined below, alongside any available documentation and guidance for analysis.\nAll the data mentioned in this document has been uploaded onto Snowflake’s systems, which can be accessed here [insert link]. At the start of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and use data within their system and will be available throughout the event to answer any queries. Participants will preferably use Snowflake to access and manipulate data, but if there are issues, the data can also be accessed here [insert link] and downloaded locally onto laptops.",
     "crumbs": [
       "Hackathon",
-      "Hackathon Data Guidance"
+      "Data"
     ]
   },
   {
@@ -77,7 +77,7 @@
     "href": "output.html",
     "title": "Output",
     "section": "",
-    "text": "Pre-Hackathon Meetings\nTwo pre-Hackathon meeting will take place online.",
+    "text": "Pre-Hackathon Meetings\nTwo pre-Hackathon meeting will take place online.\nThis session will cover:",
     "crumbs": [
       "Hackathon",
       "Output"
@@ -88,7 +88,7 @@
     "href": "output.html#pre-hackathon-meetings",
     "title": "Output",
     "section": "",
-    "text": "Team Formation & Problem Selection: Participants meet their teammates and choose a problem statement to work on.\nSnowflake & Data Training: This session will cover:\n\nWhere the data is located and how to access it\nUsing Jupyter notebooks in Snowflake\nHow to query, manipulate, and download data for local use if needed\n3–4 practical examples of data manipulation and visualisation tools in Snowflake",
+    "text": "Team Formation & Problem Selection: Participants meet their teammates and choose a problem statement to work on.\nPre-Hackathon Demo (Snowflake)\n📅 Friday, 16 May\n🕚 11:00 AM (BST)\n\n\n\nGain access to the datasets\nLearn how to connect to Snowflake accounts and locate datasets and demo code.\nIntroduction to Snowflake’s geospatial analysis capabilities\nUsing Snowflake Notebooks (similar to working in Jupyter) to build demographic, time-series, and geospatial infographics\nExample of templates for AI-generated summaries and AI-driven insights between demographic and geospatial data\nFor those preferring to work locally, a Jupyter Notebook template for connecting to Snowflake will also be shared.",
     "crumbs": [
       "Hackathon",
       "Output"
@@ -99,7 +99,7 @@
     "href": "output.html#what-groups-should-keep-in-mind",
     "title": "Output",
     "section": "What Groups should keep in mind",
-    "text": "What Groups should keep in mind\nParticipants will focus on triangulating key indicators of displacement and presenting their findings in clear, accessible formats that can inform both policymakers and humanitarian responders. The goal is to develop a compelling “Message + Infographic (Map or Other)”—a concise narrative supported by data visualisation —that can serve as a proof of concept for improving disaster response in future scenarios.\n\nInfographic: Most effective visualisations are usually a combination of images: maps + plots + icons, etc.\nCode: teams are strongly encouraged to submit any code developed during the Hackathon. This may include the creation of a GitHub repository to share scripts, data pipelines, or analysis workflows. Open and well-documented code will help ensure the solutions are reusable and scalable for future disaster response efforts. UoL may implement the proposed indicators into a software package and is eager to take the lead in developing this package as part of a collaborative effort.\n\nThis Hackathon offers an opportunity to contribute to tools and strategies that could significantly improve disaster response and resilience, not just in Pakistan but globally.",
+    "text": "What Groups should keep in mind\nParticipants will focus on triangulating key indicators of displacement and presenting their findings in clear, accessible formats that can inform both policymakers and humanitarian responders. The goal is to develop a compelling “Message + Infographic (Map or Other)”—a concise narrative supported by data visualisation —that can serve as a proof of concept for improving disaster response in future scenarios.\n\n\n\n\n\n\nInfographic and Code Guidance\n\n\n\n\nInfographic: Most effective visualisations are usually a combination of images: maps + plots + icons, etc.\nCode: Teams are strongly encouraged to submit any code developed during the Hackathon. This may include the creation of a GitHub repository to share scripts, data pipelines, or analysis workflows. Open and well-documented code will help ensure the solutions are reusable and scalable for future disaster response efforts.\n\n🛠️ Note: UoL may implement the proposed indicators into a software package and is eager to take the lead in developing this package as part of a collaborative effort.\n\n\nThis Hackathon offers an opportunity to contribute to tools and strategies that could significantly improve disaster response and resilience, not just in Pakistan but globally.",
     "crumbs": [
       "Hackathon",
       "Output"
@@ -110,7 +110,7 @@
     "href": "output.html#output-to-be-submitted",
     "title": "Output",
     "section": "Output to be submitted",
-    "text": "Output to be submitted\nEach group should prepare a short presentation (approximately 5 slides) to showcase their work at the end of the Hackathon. Emphasis should be placed on how effectively the findings are communicated. In addition, teams are strongly encouraged to submit any code developed during the Hackathon.",
+    "text": "Output to be submitted\n\n\n\n\n\n\nPresentation and Code Submission\n\n\n\nEach team should prepare a concise presentation (around 5 slides) to showcase their work at the end of the Hackathon. Focus on clear and compelling communication of your findings—impact matters as much as accuracy.\nIn addition, teams are strongly encouraged to submit any code developed during the Hackathon. Sharing your code (e.g., via a GitHub repository) helps ensure that your solutions are reproducible, scalable, and ready to support future disaster response efforts.",
     "crumbs": [
       "Hackathon",
       "Output"
@@ -121,7 +121,7 @@
     "href": "researchareas.html",
     "title": "Research Areas",
     "section": "",
-    "text": "1. Event-Based or Rapid Response: Developing Key Indicators\nParticipants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the week of May 12.\nAll teams are required to use at least one of the provided datasets (e.g., Meta, IOM). Given the limited timeframe of the Hackathon, the use of additional datasets is generally discouraged; however, if you have a specific data source in mind that supports your concept, please consult the organisers in advance. The organising team is available to answer any questions and provide further guidance in the lead-up to the event.\nFocus on generating timely, actionable indicators from Facebook and IOM data to support immediate disaster response operations.",
+    "text": "1. Event-Based or Rapid Response: Developing Key Indicators\nParticipants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the Week of May 12th.\nAll teams are required to use at least one of the provided datasets (e.g., Meta, IOM). Given the limited timeframe of the Hackathon, the use of additional datasets is generally discouraged; however, if you have a specific data source in mind that supports your concept, please consult the organisers in advance. The organising team is available to answer any questions and provide further guidance in the lead-up to the event.\nFocus on generating timely, actionable indicators from Facebook and IOM data to support immediate disaster response operations.",
     "crumbs": [
       "Hackathon",
       "Research Areas"
@@ -174,12 +174,12 @@
   {
     "objectID": "datasets.html#datasets",
     "href": "datasets.html#datasets",
-    "title": "Hackathon Data Guidance",
+    "title": "Data",
     "section": "2. Datasets",
     "text": "2. Datasets\n\n2.1. Facebook Population and Movement During Crisis\n\nMeta provides these data as part of their Data for Good programme in the aftermath of humanitarian disasters. Once uploaded, these data are available to researchers and policymakers for 90 days before being removed from the Data for Good platform. The data shows the number of Facebook users located within a given spatial unit at a given time.\nFor the Hackathon, we are using the data available in the immediate aftermath of the 2022 Pakistan floods. The data refer to the period 14 August 2022 – 7 September 2022 and are at two geographic scales: 800m tiles and aggregated to administrative level 2 geographies.\nThese data consist of two datasets, Population During Crisis and Movement During Crisis:\n\nPopulation – these are population stock data, showing the number of users in each spatial unit at three snapshots: 00:00, 8:00 and 16:00 (Pacific Time). The data are removed when there are fewer than 10 observations.\nMovement – these are population flow data, showing the origin and destination of users between temporal points. Users’ origin and destination are chosen according to where they spent most time within each 8-hour window. For example, data recorded at 16:00 shows the flow between areas from 08:00 to 16:00. Where there are fewer than 10 observations for a flow, data are removed. The Pakistan data available for the Movement data are only at the 08:00 and 16:00 time periods, but not for the 00:00 period.\n\nThe data are generally comprehensive, but there are some gaps, largely due to collection issues at Meta’s end. For example, in both the tiled and aggregated Movement data, only the 08:00 and 16:00 time stamps are available, with the 00:00 period missing. Additionally, the aggregated Population data for 20, 21 and 22 August are also missing.\nBoth datasets contain data from a baseline period before the disaster event to compare users’ stock or flow during the crisis. The raw and percentage differences are provided within the dataset, along with a z-score to assess the statistical significance of the change from the pre-crisis baseline to the crisis period.\nThe data is available as a series of csv files. Each file is either the tiled or aggregated data for each time stamp of each day of the Population or Movement data.\n\nA guide on using these data in R can be found here.\n\n\n2.2. IOM Data\n\nThese data are collated and published by the IOM’s Displacement Tracking Matrix (DTM) team. The primary data produced for Pakistan by the IOM in the context of the 2022 floods are the Flood Response Community Needs Identification (CNI) datasets. These data are collated and published in rounds; six rounds have been run so far, though data for Round 5 is not publicly available.\nData from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below.\nFor the Hackathon, each data round is provided. The data format varies between rounds, though each generally provides similar variables and data.\nAlongside each round of data, a report is also published. Reports can be found here for each round:\n\nRound 1 (Nov – Dec 2022)\nRound 2 (Jan – Mar 2023)\nRound 3 – Balochistan Province (May – June 2023)\nRound 3 – Khyber Pakhtunkhwa Province (May – June 2023)\nRound 3 – Sindh Province (May – June 2023)\nRound 4 – Balochistan Province (August 2023)\nRound 4 – Khyber Pakhtunkhwa Province (August 2023)\nRound 4 – Sindh Province (August 2023)\nRound 6 – Balochistan and Khyber Pakhtunkhwa Provinces (August 2024)\n\n\n\n\n2.3. Contextual Data\n\nAlongside mobility data, we have prepared a series of datasets that provide additional context to Pakistan. These data are:\n\nSpatial boundaries, sourced from GADM. The shapefile boundaries for administrative levels 0, 1, 2 and 3 and the geopackage for Pakistan are included.\nPopulation estimates for Pakistan from the 2020 Global Human Settlement Layer (GHSL). The data is in 100m resolution grids, cropped to Pakistan.\nPopulation estimates for Pakistan, aggregated to administrative levels 0, 1, 2, and 3. All but administrative level 3 data have variables for urban/rural and female/male/transgender populations. The data is sourced from the 2017 Pakistan Census, compiled by OCHA.\nDeprivation data from The Global Gridded Relative Deprivation Index (GRDI). The data is a raster file at 1km resolution, cropped to Pakistan. Also available is a geopackage file for this measure, aggregated to Pakistan’s administrative level 2 geographies. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed here.",
     "crumbs": [
       "Hackathon",
-      "Hackathon Data Guidance"
+      "Data"
     ]
   },
   {
@@ -219,7 +219,7 @@
     "href": "workshop.html",
     "title": "Workshop",
     "section": "",
-    "text": "Day 1\nA workshop fostering dialogue with key international stakeholders focusing on key added value and limitations of digital trace data for humanitarian action with illustrations. The workshop will be followed by a hackathon where teams use displacement estimates derived from digital trace data for humanitarian action.",
+    "text": "Day 1 - May 21st 2025\nA workshop fostering dialogue with key international stakeholders focusing on key added value and limitations of digital trace data for humanitarian action with illustrations. The workshop will be followed by a hackathon where teams use displacement estimates derived from digital trace data for humanitarian action.",
     "crumbs": [
       "Workshop"
     ]
@@ -249,7 +249,7 @@
     "href": "workshop.html#day-1",
     "title": "Workshop",
     "section": "",
-    "text": "9:00–11:00\n\n9:00–9:30 – Welcome, Introductions & Agenda – Prof. Francisco Rowe (UoL)\n9:30–9:50 – Assessing Non-traditional Data Sources – Kate Hokinson (OCHA)\n\n9:50–10:10 – Data and findings from the project – Dr. Elisabetta Pietrostefani (UoL)\n10:10–10:30 – Lessons learned from the project Digital Trace Data for Population Displacement – Matt Mason (UoL)\n10:30–10:45 – Questions & Discussion\n\n\n10:45–11:00 – Coffee Break\n\n\n\n11:00–13:00\n\n11:00–11:20 – Using Facebook Movement During Crisis – Dr. Carmen Cabrera-Arnau & Prof. Francisco Rowe\n\n11:20–11:30 – Hackathon Problem Statements - Hong Tran-Jones (IOM DTM)\n11:30–11:50 – Facebook Population and Movement Data – Matt Mason (UoL)\n11:50–12:10 – IOM Pakistan Data – Ellen Van de Weghe (IOM Pakistan)\n12:10–12:40 – Accessing Your Data and Creating an Infographic: A Short Demo using Hackathon Data – Euan Newlands (Snowflake)\n12:40–13:00 – Questions & Discussion\n\n\n\n13:00–14:00\nNetworking Lunch\n\n\n14:00–17:00\n\nHackathon Session 1\n\n\n\n17:00–18:00\n\nTeam Progress Updates: Goals and Objectives\n\n\n\nEvening\n18:30–21:00 – Networking Dinner",
+    "text": "Joining Online – May 21st (Day 1), 9:00–13:00\nParticipants can join the workshop remotely via Microsoft Teams.\nJoin the meeting now: Click here to join\nMeeting ID: 311 232 317 588\nPasscode: eY2xq6eD\nIf you need assistance, please reach out to the event organizers.\n\n\n9:00–11:00\n\n9:00–9:30 – Welcome, Introductions & Agenda – Prof. Francisco Rowe (UoL)\n9:30–9:50 – Assessing Non-traditional Data Sources – Kate Hokinson (OCHA)\n\n9:50–10:10 – Data and findings from the project – Dr. Elisabetta Pietrostefani (UoL)\n10:10–10:30 – Lessons learned from the project Digital Trace Data for Population Displacement – Matt Mason (UoL)\n10:30–10:45 – Questions & Discussion\n\n\n10:45–11:00 – Coffee Break\n\n\n\n11:00–13:00\n\n11:00–11:20 – Using Facebook Movement During Crisis – Dr. Carmen Cabrera-Arnau & Prof. Francisco Rowe\n\n11:20–11:30 – Hackathon Problem Statements - Hong Tran-Jones (IOM DTM)\n11:30–11:50 – Facebook Population and Movement Data – Matt Mason (UoL)\n11:50–12:10 – IOM Pakistan Data – Ellen Van de Weghe (IOM Pakistan)\n12:10–12:40 – Accessing Your Data and Creating an Infographic: A Short Demo using Hackathon Data – Euan Newlands (Snowflake)\n12:40–13:00 – Questions & Discussion\n\n\n\n13:00–14:00\nNetworking Lunch\n\n\n14:00–17:00\n\nHackathon Session 1\n\n\n\n17:00–18:00\n\nTeam Progress Updates: Goals and Objectives\n\n\n\nEvening\n18:30–21:00 – Networking Dinner",
     "crumbs": [
       "Workshop"
     ]
@@ -262,6 +262,47 @@
     "text": "Day 2\n\n9:00–9:30\n\nRecap of Hackathon Objectives and Goals - Prof. Francisco Rowe\n\n\n\n9:00–11:00\n\nHackathon Session 2\n\n\n10:45–11:00 – Coffee Break\n\n\n\n11:00–13:00\n\nHackathon Session 3\n\n\n\n13:00–14:00\nWorking Lunch\n\n\n14:00–17:00\n\nHackathon Final Session\n\n\n\n17:00–18:00\n\nTeam Presentations to Panel of Judges",
     "crumbs": [
       "Workshop"
+    ]
+  },
+  {
+    "objectID": "workshop.html#joining-online-may-21st-day-1-9001300",
+    "href": "workshop.html#joining-online-may-21st-day-1-9001300",
+    "title": "Workshop",
+    "section": "🔗 Joining Online – May 21st (Day 1), 9:00–13:00",
+    "text": "🔗 Joining Online – May 21st (Day 1), 9:00–13:00\nParticipants can join the workshop remotely via Microsoft Teams.\nJoin the meeting now: Click here to join\nMeeting ID: 311 232 317 588\nPasscode: eY2xq6eD\nIf you need assistance, please reach out to the event organizers.\n\n9:00–11:00\n\n9:00–9:30 – Welcome, Introductions & Agenda – Prof. Francisco Rowe (UoL)\n9:30–9:50 – Assessing Non-traditional Data Sources – Kate Hokinson (OCHA)\n\n9:50–10:10 – Data and findings from the project – Dr. Elisabetta Pietrostefani (UoL)\n10:10–10:30 – Lessons learned from the project Digital Trace Data for Population Displacement – Matt Mason (UoL)\n10:30–10:45 – Questions & Discussion\n\n\n10:45–11:00 – Coffee Break\n\n\n\n11:00–13:00\n\n11:00–11:20 – Using Facebook Movement During Crisis – Dr. Carmen Cabrera-Arnau & Prof. Francisco Rowe\n\n11:20–11:30 – Hackathon Problem Statements - Hong Tran-Jones (IOM DTM)\n11:30–11:50 – Facebook Population and Movement Data – Matt Mason (UoL)\n11:50–12:10 – IOM Pakistan Data – Ellen Van de Weghe (IOM Pakistan)\n12:10–12:40 – Accessing Your Data and Creating an Infographic: A Short Demo using Hackathon Data – Euan Newlands (Snowflake)\n12:40–13:00 – Questions & Discussion\n\n\n\n13:00–14:00\nNetworking Lunch\n\n\n14:00–17:00\n\nHackathon Session 1\n\n\n\n17:00–18:00\n\nTeam Progress Updates: Goals and Objectives\n\n\n\nEvening\n18:30–21:00 – Networking Dinner",
+    "crumbs": [
+      "Workshop"
+    ]
+  },
+  {
+    "objectID": "workshop.html#day-1---may-21st-2025",
+    "href": "workshop.html#day-1---may-21st-2025",
+    "title": "Workshop",
+    "section": "",
+    "text": "Joining Online – 9:00–13:00\nParticipants can join the workshop remotely via Microsoft Teams.\nJoin the meeting now: Click here to join\nMeeting ID: 311 232 317 588\nPasscode: eY2xq6eD\nIf you need assistance, please reach out to the event organizers.\n\n\n9:00–11:00\n\n9:00–9:30 – Welcome, Introductions & Agenda – Prof. Francisco Rowe (UoL)\n9:30–9:50 – Assessing Non-traditional Data Sources – Kate Hokinson (OCHA)\n\n9:50–10:10 – Data and findings from the project – Dr. Elisabetta Pietrostefani (UoL)\n10:10–10:30 – Lessons learned from the project Digital Trace Data for Population Displacement – Matt Mason (UoL)\n10:30–10:45 – Questions & Discussion\n\n\n10:45–11:00 – Coffee Break\n\n\n\n11:00–13:00\n\n11:00–11:20 – Using Facebook Movement During Crisis – Dr. Carmen Cabrera-Arnau & Prof. Francisco Rowe\n\n11:20–11:30 – Hackathon Problem Statements - Hong Tran-Jones (IOM DTM)\n11:30–11:50 – Facebook Population and Movement Data – Matt Mason (UoL)\n11:50–12:10 – IOM Pakistan Data – Ellen Van de Weghe (IOM Pakistan)\n12:10–12:40 – Accessing Your Data and Creating an Infographic: A Short Demo using Hackathon Data – Euan Newlands (Snowflake)\n12:40–13:00 – Questions & Discussion\n\n\n\n13:00–14:00\nNetworking Lunch\n\n\n14:00–17:00\n\nHackathon Session 1\n\n\n\n17:00–18:00\n\nTeam Progress Updates: Goals and Objectives\n\n\n\nEvening\n18:30–21:00 – Networking Dinner",
+    "crumbs": [
+      "Workshop"
+    ]
+  },
+  {
+    "objectID": "workshop.html#day-2-----may-22nd-2025",
+    "href": "workshop.html#day-2-----may-22nd-2025",
+    "title": "Workshop",
+    "section": "Day 2 - - May 22nd 2025",
+    "text": "Day 2 - - May 22nd 2025\n\n9:00–9:30\n\nRecap of Hackathon Objectives and Goals - Prof. Francisco Rowe\n\n\n\n9:00–11:00\n\nHackathon Session 2\n\n\n10:45–11:00 – Coffee Break\n\n\n\n11:00–13:00\n\nHackathon Session 3\n\n\n\n13:00–14:00\nWorking Lunch\n\n\n14:00–17:00\n\nHackathon Final Session\n\n\n\n17:00–18:00\n\nTeam Presentations to Panel of Judges",
+    "crumbs": [
+      "Workshop"
+    ]
+  },
+  {
+    "objectID": "probstatement.html",
+    "href": "probstatement.html",
+    "title": "Problem statement",
+    "section": "",
+    "text": "Building on work by the University of Liverpool and IOM using digital data to track displacement in conflict settings, the Hackathon explores how similar approaches can be applied in the context of climate-induced natural hazards. In the aftermath of such disasters, understanding internal displacement patterns is vital for effective humanitarian response.\nWhile traditional survey-based methods, like those used by IOM, offer valuable insights in informing operational responses to mitigate the effect of disasters, they often take time to develop and be fully operational. Digital-trace data present opportunities for more timely, detailed, and dynamic tracking of population movements before and after climate events, to inform rapid response operations and support spatially targeted interventions.\nDuring the Hackathon, participants will utilise Meta’s “Facebook Movement During Crisis” and “Facebook Population During Crisis” data derived from mobile phone location records, alongside IOM’s displacement data.\n\nThe Facebook Movement dataset records the movements of Facebook users, showing how people travel between different areas during a crisis. It includes both the typical movement patterns observed before the crisis and the actual movements during the event, allowing for a comparison between the two.\nThe Population dataset includes information about the number of active Facebook users in a specific area during a crisis, the typical number of active users in that area before the crisis, and the difference between these two values.\n\nBy integrating these datasets with traditional sources and socio-economic variables, teams will explore innovative approaches to enhance disaster response, optimise resource allocation, and develop predictive models for future crises.",
+    "crumbs": [
+      "Hackathon",
+      "Problem statement"
     ]
   }
 ]

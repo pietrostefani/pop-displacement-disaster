@@ -1,4 +1,4 @@
-# Hackathon Data Guidance {.unnumbered}
+# Data {.unnumbered}
 
 This section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found [here](probstatement.qmd) and should be referred to regarding the event’s purpose and objectives.
 

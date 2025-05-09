@@ -1,6 +1,6 @@
 # Research Areas {.unnumbered}
 
-Participants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the **week of May 12.**
+Participants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the **Week of May 12th.**
 
 All teams are required to use **at least one of the provided datasets** (e.g., Meta, IOM). Given the limited timeframe of the Hackathon, the use of **additional datasets is generally discouraged**; however, if you have a specific data source in mind that supports your concept, please consult the organisers in advance. The organising team is available to answer any questions and provide further guidance in the lead-up to the event.
 

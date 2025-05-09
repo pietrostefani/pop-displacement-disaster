@@ -4,23 +4,46 @@
 
 Two pre-Hackathon meeting will take place online.
 
-1.  Team Formation & Problem Selection: Participants meet their teammates and choose a problem statement to work on.
-2.  Snowflake & Data Training: This session will cover:
-    -   Where the data is located and how to access it
-    -   Using Jupyter notebooks in Snowflake
-    -   How to query, manipulate, and download data for local use if needed
-    -   3–4 practical examples of data manipulation and visualisation tools in Snowflake
+1.  **Team Formation & Problem Selection**: Participants meet their teammates and choose a problem statement to work on.
+
+2.  **Pre-Hackathon Demo (Snowflake)**
+
+    📅 **Friday, 16 May**
+
+    🕚 **11:00 AM (BST)**
+
+This session will cover:
+
+-   Gain access to the datasets
+
+-   Learn how to connect to Snowflake accounts and locate datasets and demo code.
+
+-   Introduction to Snowflake’s geospatial analysis capabilities
+
+-   Using Snowflake Notebooks (similar to working in Jupyter) to build demographic, time-series, and geospatial infographics
+
+-   Example of templates for AI-generated summaries and AI-driven insights between demographic and geospatial data
+
+-   For those preferring to work locally, a Jupyter Notebook template for connecting to Snowflake will also be shared.
 
 ## What Groups should keep in mind
 
-Participants will focus on triangulating key indicators of displacement and presenting their findings in clear, accessible formats that can inform both policymakers and humanitarian responders. The goal is to develop a compelling “Message + Infographic (Map or Other)”—a concise narrative supported by data visualisation —that can serve as a proof of concept for improving disaster response in future scenarios.
+Participants will focus on triangulating key indicators of displacement and presenting their findings in clear, accessible formats that can inform both policymakers and humanitarian responders. The goal is to develop a compelling **“Message + Infographic (Map or Other)”**—a concise narrative supported by data visualisation —that can serve as a proof of concept for improving disaster response in future scenarios.
 
+::: {.callout-tip title="Infographic and Code Guidance"}
 1.  **Infographic**: Most effective visualisations are usually a combination of images: maps + plots + icons, etc.
 
-2.  **Code**: teams are *strongly encouraged* to submit any code developed during the Hackathon. This may include the creation of a GitHub repository to share scripts, data pipelines, or analysis workflows. Open and well-documented code will help ensure the solutions are reusable and scalable for future disaster response efforts. UoL may implement the proposed indicators into a software package and is eager to take the lead in developing this package as part of a collaborative effort.
+2.  **Code**: Teams are *strongly encouraged* to submit any code developed during the Hackathon. This may include the creation of a GitHub repository to share scripts, data pipelines, or analysis workflows. Open and well-documented code will help ensure the solutions are reusable and scalable for future disaster response efforts.
+
+🛠️ **Note**: UoL may implement the proposed indicators into a software package and is eager to take the lead in developing this package as part of a collaborative effort.
+:::
 
 This Hackathon offers an opportunity to contribute to tools and strategies that could significantly improve disaster response and resilience, not just in Pakistan but globally.
 
 ## Output to be submitted
 
-Each group should prepare a short presentation (approximately 5 slides) to showcase their work at the end of the Hackathon. Emphasis should be placed on how effectively the findings are communicated. In addition, teams are *strongly encouraged* to submit any code developed during the Hackathon. 
+::: {.callout-important title="Presentation and Code Submission"}
+Each team should prepare a concise presentation (around **5 slides**) to showcase their work at the end of the Hackathon. Focus on **clear and compelling communication** of your findings—impact matters as much as accuracy.
+
+In addition, teams are *strongly encouraged* to submit any code developed during the Hackathon. Sharing your code (e.g., via a GitHub repository) helps ensure that your solutions are **reproducible**, **scalable**, and ready to support future disaster response efforts.
+:::
