@@ -2,25 +2,27 @@
 
 This section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found [here](probstatement.qmd) and should be referred to regarding the event’s purpose and objectives.
 
-The human mobility datasets provided for the Hackathon fall into one of two categories: digital data (from Meta) or key informant survey data (from IOM). The table below outlines these, summarising their accessibility, processing and stability. In addition, contextual data on Pakistan is provided to help with analysis. Each dataset is outlined below, alongside any available documentation and guidance for analysis.
+The human mobility datasets provided for the Hackathon fall into one of two categories: digital data (from Meta) or key informant survey data (from IOM). The table below outlines these, summarising their accessibility, processing and stability. In addition, contextual data on Pakistan is provided to help with analysis, as well as a variety of spatial boundaries that can be used to map the provided datasets. Each dataset is outlined below, alongside any available documentation and guidance for analysis.
 
-+----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+---------------------------------------------------+
-| **Data**                                           | **Provider** | **Spatial Detail** | **Source**                  | **Access**                                                 | **Processing** | **Stability**                                     |
-+----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+---------------------------------------------------+
-| **Facebook Population and Movement During Crisis** | Meta         | 800m tiles         | Meta apps (mainly Facebook) | Free to researchers                                        | Computational  | Made available after a disaster event for 90 days |
-|                                                    |              |                    |                             |                                                            |                |                                                   |
-|                                                    |              | Admin 2            |                             |                                                            |                |                                                   |
-+----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+---------------------------------------------------+
-| **Community Needs Identification Data**            | IOM          | Admin 2            | Key informants              | Published online (collection is time-consuming and costly) | Manpower       | Ad Hoc reports after a disaster event             |
-|                                                    |              |                    |                             |                                                            |                |                                                   |
-|                                                    |              | Admin 3            |                             |                                                            |                |                                                   |
-|                                                    |              |                    |                             |                                                            |                |                                                   |
-|                                                    |              | Town/Village       |                             |                                                            |                |                                                   |
-+----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+---------------------------------------------------+
++----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+-----------------------------------------------------------+
+| **Data**                                           | **Provider** | **Spatial Detail** | **Source**                  | **Access**                                                 | **Processing** | **Stability**                                             |
++----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+-----------------------------------------------------------+
+| **Facebook Population and Movement During Crisis** | Meta         | 800m tiles         | Meta apps (mainly Facebook) | Free to researchers                                        | Computational  | Made available after a disaster event for 90 days         |
+|                                                    |              |                    |                             |                                                            |                |                                                           |
+|                                                    |              | Global admin 2     |                             |                                                            |                |                                                           |
++----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+-----------------------------------------------------------+
+| **Community Needs Identification Data**            | IOM          | Division           | Key informants              | Published online (collection is time-consuming and costly) | Manpower       | Ad Hoc survey rounds and reports after the disaster event |
+|                                                    |              |                    |                             |                                                            |                |                                                           |
+|                                                    |              | District           |                             |                                                            |                |                                                           |
+|                                                    |              |                    |                             |                                                            |                |                                                           |
+|                                                    |              | Tehsil             |                             |                                                            |                |                                                           |
+|                                                    |              |                    |                             |                                                            |                |                                                           |
+|                                                    |              | Village/settlement |                             |                                                            |                |                                                           |
++----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+-----------------------------------------------------------+
 
 ## 1. Data Access
 
-All the data mentioned in this document has been uploaded onto Snowflake’s systems, which can be accessed here \[insert link\]. At the start of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and use data within their system and will be available throughout the event to answer any queries. Participants will preferably use Snowflake to access and manipulate data, but if there are issues, the data can also be accessed here \[insert link\] and downloaded locally onto laptops.
+All the data mentioned in this document has been uploaded onto Snowflake’s systems. As part of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and use data within their system and will be available throughout the event to answer any queries.
 
 ## 2. Datasets
 
@@ -28,7 +30,7 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
 -   Meta provides these data as part of their Data for Good programme in the aftermath of humanitarian disasters. Once uploaded, these data are available to researchers and policymakers for 90 days before being removed from the Data for Good platform. The data shows the number of Facebook users located within a given spatial unit at a given time.
 
--   For the Hackathon, we are using the data available in the immediate aftermath of the 2022 Pakistan floods. The data refer to the period 14 August 2022 – 7 September 2022 and are at two geographic scales: 800m tiles and aggregated to administrative level 2 geographies.
+-   For the Hackathon, we are using the data available in the immediate aftermath of the 2022 Pakistan floods. The data refer to the period 14 August 2022 – 7 September 2022 and are at two geographic scales: 800m tiles (known as quadkeys, based on the [Bing Maps tile system](https://learn.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system)) and aggregated to global administrative ([GADM](https://gadm.org/data.html)) level 2 geographies.
 
 -   These data consist of two datasets, Population During Crisis and Movement During Crisis:
 
@@ -48,11 +50,11 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
 -   These data are collated and published by the IOM’s Displacement Tracking Matrix (DTM) team. The primary data produced for Pakistan by the IOM in the context of the 2022 floods are the Flood Response Community Needs Identification (CNI) datasets. These data are collated and published in rounds; six rounds have been run so far, though data for Round 5 is not publicly available.
 
--   Data from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below.
+-   Data from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below. These data are often very challenging to collect, and, as a result, each round does not cover the exact same areas, or collect the same level of data. 
 
--   For the Hackathon, each data round is provided. The data format varies between rounds, though each generally provides similar variables and data.
+-   The data are provided at the village/settlement level. Also included are variables for division, district and Tehsil. For the first two, codes are provided also to make them easier to be joined to spatial boundaries. These codes are p-codes, a geographic framework commonly used by the Office for the Coordination of Humanitarian Affairs (OCHA) to link data to administrative areas. **These geographies and codes do not map onto those that the Facebook Population and Movement data are aggregated to.** A short guide on the different geographies is provided at the end of this guidance page.
 
--   Alongside each round of data, a report is also published. Reports can be found here for each round:
+-   For the Hackathon, each data round is provided. The data format and variable names vary slightly between rounds, though each generally provides similar variables and data. Alongside each round of data, a report is also published. Reports can be found here for each round:
 
     -   [Round 1 (Nov – Dec 2022)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-report-round-1-nov-dec-2022)
 
@@ -74,12 +76,70 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
 ### 2.3. Contextual Data
 
--   Alongside mobility data, we have prepared a series of datasets that provide additional context to Pakistan. These data are:
+-   Alongside mobility data, we have prepared a series of datasets that provide additional context to Pakistan. They consist of population data in raster and aggregated form, and socioeconomic data, also in raster and aggregated format.
 
-    -   Spatial boundaries, sourced from [GADM](https://gadm.org/data.html). The shapefile boundaries for administrative levels 0, 1, 2 and 3 and the geopackage for Pakistan are included.
+-   Raster population data:
 
-        Population estimates for Pakistan from the 2020 Global Human Settlement Layer ([GHSL](https://human-settlement.emergency.copernicus.eu/index.php)). The data is in 100m resolution grids, cropped to Pakistan.
+    -   Population estimates for Pakistan for 2020 from [WorldPop](https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop). The data is at 100m resolution grids in a single raster file.
 
-        Population estimates for Pakistan, aggregated to administrative levels 0, 1, 2, and 3. All but administrative level 3 data have variables for urban/rural and female/male/transgender populations. The data is sourced from the 2017 Pakistan Census, compiled by [OCHA](https://data.humdata.org/dataset/cod-ps-pak).
+    -   Population estimates for Pakistan by age and sex for 2020 from [WorldPop](https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop). The data is at 100m resolution grids in a series of rasters. Files are structured like *{iso} {gender} {age group} {year} {type} {resolution}.tif* - gender fields are f (female), m (male), t (total); age group fields are 00 (0-12 months), 01 (1-4 years), 05 (5-9 years) and so on until 90 (age 90 and above).
 
-        Deprivation data from The Global Gridded Relative Deprivation Index ([GRDI](https://earth.gov/data-catalog/grdi-v1)). The data is a raster file at 1km resolution, cropped to Pakistan. Also available is a geopackage file for this measure, aggregated to Pakistan’s administrative level 2 geographies. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed [here](https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf).
+-   Aggregated population data:
+
+    -   Population estimates for Pakistan for 2020 from the [WorldPop](https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop) raster, aggregated to global administrative level 2, and the division and district polygons used by OCHA. The data is calculated by the project team using WorldPop data and spatial polygons provided by [GADM](https://gadm.org/data.html) and [OCHA](https://data.humdata.org/dataset/cod-ab-pak).
+
+-   Socioeconomic data:
+
+    -   Deprivation data from The Global Gridded Relative Deprivation Index ([GRDI](https://earth.gov/data-catalog/grdi-v1)). The data is a raster file at 1km resolution, cropped to Pakistan. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed [here](https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf). These have also been aggregated to global administrative level 2 and the division and district polygons used by OCHA by computing the mean value within the polygon from the GRDI raster data.
+
+### 2.4. Spatial Boundaries
+
+-   Due to recent boundary changes and differing administrative boundaries being used by different organisations, the joining of spatial data together for Pakistan is not a simple task. Much of the data listed above, however, is able to be joined to a spatial boundary to be mapped and analysed. This section describes the spatial boundaries made available, as well a table with details of how the Meta, IOM and contextual datasets can be joined to these.
+
+-   The boundaries available are:
+
+    -   Spatial polygons for global administrative levels, sourced from [GADM](https://gadm.org/data.html). The shapefile boundaries for global administrative levels 0, 1, 2 and 3 and the geopackage for Pakistan are included. These boundaries can be joined to the aggregated Facebook Population and Movement data, as well as the population and deprivation data aggregated to global administrative level 2.
+
+    -   Spatial polygons used by OCHA for subnational boundaries of Pakistan. Data is shapefiles for divisions (adm1), districts (adm2) and tehsils (adm3), sourced from [OCHA](https://data.humdata.org/dataset/cod-ab-pak). These boundaries can be joined to the spatial variable codes in the IOM CNI data for divisions and districts, as well as the population and deprivation data aggregated to OCHA administrative level 1 and 2.
+
+    -   Spatial polygons for the 800m tiles (also known as quadkeys) found in the Facebook Population and Movement tile data. These were created from the tile datasets using the R package [quadkeyr](https://docs.ropensci.org/quadkeyr/articles/quadkey_to_sf_conversion.html).
+
+-   The below table provides an overview of the variables in each dataset and which boundary they relate to.
+
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Dataset                                                               | Spatial Codes                              | Type                    | Boundary File and Corresponding Code                        |
++=======================================================================+============================================+=========================+=============================================================+
+| **Facebook Data**                                                     |                                            |                         |                                                             |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Facebook Population (aggregated)                                      | polygon_id                                 | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Facebook Population (tiled)                                           | quadkey                                    | 800m tile               | Quadkey polygons (**quadkey**)                              |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Facebook Movement (aggregated)                                        | start_polygon_id                           | Origin polygon          | Global administrative level 2 polygons (**GID_2**)          |
+|                                                                       |                                            |                         |                                                             |
+|                                                                       | end_polygon_id                             | Destination polygon     |                                                             |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Facebook Movement (tiled)                                             | start_quadkey                              | Origin 800m tile        | Quadkey polygons (**quadkey**)                              |
+|                                                                       |                                            |                         |                                                             |
+|                                                                       | end_quadkey                                | Destination 880m tile   |                                                             |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| **IOM Data**                                                          |                                            |                         |                                                             |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| IOM CNI Data                                                          | DivisonCode/Pcode/PCODE; or Admin3 pcode   | Division (adm1) polygon | OCHA subnational polygons (**ADM1_PCODE**) (**ADM2_PCODE**) |
+|                                                                       |                                            |                         |                                                             |
+|                                                                       | District Code/Pcode/PCODE; or Admin2 pcode | District (adm2) polygon |                                                             |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| **Contextual Data**                                                   |                                            |                         |                                                             |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Aggregated Population Data (gadm_2)                                   | GID_2                                      | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Aggregated Population Data (ocha_2 and ocha_3)                        | ADM1_PCODE                                 | Division (adm2) polygon | OCHA subnational polygons (**ADM1_PCODE**)(**ADM2_PCODE**)  |
+|                                                                       |                                            |                         |                                                             |
+|                                                                       | ADM2_PCODE                                 | District (adm2) polygon |                                                             |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Aggregated Global Relative Deprivation Index Data (gadm_2)            | GID_2                                      | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Aggregated Global Relative Deprivation Index Data (ocha_2 and ocha_3) | ADM1_PCODE                                 | Division (adm2) polygon | OCHA subnational polygons (**ADM1_PCODE**)(**ADM2_PCODE**)  |
+|                                                                       |                                            |                         |                                                             |
+|                                                                       | ADM2_PCODE                                 | District (adm2) polygon |                                                             |
++-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
