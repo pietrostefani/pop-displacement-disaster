@@ -1,6 +1,6 @@
 # Case-study {.unnumbered}
 
-The specific case study for this Hackathon will be the floods that struck Pakistan in 2022. Between June and October of that year, unprecedented monsoon rains affected over 33 million people across the country, resulting in 1,739 deaths and an estimated $40 billion in property damage.
+The specific case study for this Hackathon will be the floods that struck Pakistan in 2022. Between June and October of that year, unprecedented monsoon rains affected over 33 million people across the country, resulting in 1,739 deaths and an estimated \$40 billion in property damage.
 
 This event was selected for its large-scale humanitarian and economic impact, and the availability of high-quality data from both the International Organization for Migration (IOM) and Meta. These datasets provide an opportunity for participants to compare, combine, and analyse real-world information in a meaningful way.
 
@@ -9,6 +9,14 @@ Focusing on a disaster aligns with the Hackathon’s broader goal: addressing ch
 ::: {.callout-note title="More on Pakistan Floods"}
 You can find more information on the Pakistan floods at the following sources and beyond:
 
-- [IOM Displacement Tracking Matrix](https://dtm.iom.int/pakistan)
-- [Humanitarian Data Exchange - Pakistan](https://data.humdata.org/group/pak)
+-   [IOM Displacement Tracking Matrix](https://dtm.iom.int/pakistan)
+-   [Humanitarian Data Exchange - Pakistan](https://data.humdata.org/group/pak)
+:::
+
+## Pakistan – Flood Response Community Needs Identification (CNI) 
+
+An example of the locations assessed by IOM in [Round 6 – Balochistan and Khyber Pakhtunkhwa Provinces (August 2024)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-6-balochistan-and-khyber).
+
+::: {style="text-align: center;"}
+<img src="img/IOM_DTM_CNI_Floods_R06.png" width="400"/>
 :::
