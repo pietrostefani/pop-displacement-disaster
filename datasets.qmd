@@ -94,9 +94,9 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
 -   Climate data:
 
-    -   Dekadal (10-day) rainfall data from 2021 at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for rainfall, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational).
+    -   Dekadal (10-day) rainfall data from 2021 onward at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for rainfall, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational).
 
-    -   Dekadal (10-day) Normalized Difference Vegetation Index (NDVI) data from 2021 at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for vegetian greenness, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational), normally used to quantify the health and density of vegetation.
+    -   Dekadal (10-day) Normalized Difference Vegetation Index (NDVI) data from 2021 onward at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for vegetation greenness, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational), normally used to quantify the health and density of vegetation.
 
 ### 2.4. Spatial Boundaries
 
@@ -112,44 +112,44 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
 -   The below table provides an overview of the variables in each dataset and which boundary they relate to.
 
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Dataset                                                               | Spatial Codes                              | Type                    | Boundary File and Corresponding Code                        |
-+=======================================================================+============================================+=========================+=============================================================+
-| **Facebook Data**                                                     |                                            |                         |                                                             |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Facebook Population (aggregated)                                      | polygon_id                                 | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Facebook Population (tiled)                                           | quadkey                                    | 800m tile               | Quadkey polygons (**quadkey**)                              |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Facebook Movement (aggregated)                                        | start_polygon_id                           | Origin polygon          | Global administrative level 2 polygons (**GID_2**)          |
-|                                                                       |                                            |                         |                                                             |
-|                                                                       | end_polygon_id                             | Destination polygon     |                                                             |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Facebook Movement (tiled)                                             | start_quadkey                              | Origin 800m tile        | Quadkey polygons (**quadkey**)                              |
-|                                                                       |                                            |                         |                                                             |
-|                                                                       | end_quadkey                                | Destination 880m tile   |                                                             |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| **IOM Data**                                                          |                                            |                         |                                                             |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| IOM CNI Data                                                          | DivisonCode/Pcode/PCODE; or Admin3 pcode   | Division (adm1) polygon | OCHA subnational polygons (**ADM1_PCODE**) (**ADM2_PCODE**) |
-|                                                                       |                                            |                         |                                                             |
-|                                                                       | District Code/Pcode/PCODE; or Admin2 pcode | District (adm2) polygon |                                                             |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| **Contextual Data**                                                   |                                            |                         |                                                             |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Aggregated Population Data (gadm_2)                                   | GID_2                                      | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Aggregated Population Data (ocha_2 and ocha_3)                        | ADM1_PCODE                                 | Division (adm1) polygon | OCHA subnational polygons (**ADM1_PCODE**)(**ADM2_PCODE**)  |
-|                                                                       |                                            |                         |                                                             |
-|                                                                       | ADM2_PCODE                                 | District (adm2) polygon |                                                             |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Aggregated Global Relative Deprivation Index Data (gadm_2)            | GID_2                                      | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Aggregated Global Relative Deprivation Index Data (ocha_2 and ocha_3) | ADM1_PCODE                                 | Division (adm1) polygon | OCHA subnational polygons (**ADM1_PCODE**)(**ADM2_PCODE**)  |
-|                                                                       |                                            |                         |                                                             |
-|                                                                       | ADM2_PCODE                                 | District (adm2) polygon |                                                             |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| WFP - Rainfall at Subnational Level                                   | ADM2_PCODE                                 | District (adm2) polygon | OCHA subnational polygons (**ADM2_PCODE**)                  |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| WFP - NVDI at Subnational Level                                       | ADM2_PCODE                                 | District (adm2) polygon | OCHA subnational polygons (**ADM2_PCODE**)                  |
-+-----------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Dataset                                                                      | Spatial Codes                              | Type                    | Boundary File and Corresponding Code                        |
++==============================================================================+============================================+=========================+=============================================================+
+| **Facebook Data**                                                            |                                            |                         |                                                             |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Facebook Population (aggregated)                                             | polygon_id                                 | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Facebook Population (tiled)                                                  | quadkey                                    | 800m tile               | Quadkey polygons (**quadkey**)                              |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Facebook Movement (aggregated)                                               | start_polygon_id                           | Origin polygon          | Global administrative level 2 polygons (**GID_2**)          |
+|                                                                              |                                            |                         |                                                             |
+|                                                                              | end_polygon_id                             | Destination polygon     |                                                             |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Facebook Movement (tiled)                                                    | start_quadkey                              | Origin 800m tile        | Quadkey polygons (**quadkey**)                              |
+|                                                                              |                                            |                         |                                                             |
+|                                                                              | end_quadkey                                | Destination 800m tile   |                                                             |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| **IOM Data**                                                                 |                                            |                         |                                                             |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| IOM CNI Data                                                                 | DivisonCode/Pcode/PCODE; or Admin3 pcode   | Division (adm1) polygon | OCHA subnational polygons (**ADM1_PCODE**) (**ADM2_PCODE**) |
+|                                                                              |                                            |                         |                                                             |
+|                                                                              | District Code/Pcode/PCODE; or Admin2 pcode | District (adm2) polygon |                                                             |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| **Contextual Data**                                                          |                                            |                         |                                                             |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Aggregated Population Data (gadm_2)                                          | GID_2                                      | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Aggregated Population Data (ocha_1 and ocha_2)                               | ADM1_PCODE                                 | Division (adm1) polygon | OCHA subnational polygons (**ADM1_PCODE**)(**ADM2_PCODE**)  |
+|                                                                              |                                            |                         |                                                             |
+|                                                                              | ADM2_PCODE                                 | District (adm2) polygon |                                                             |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Aggregated Global Relative Deprivation Index Data (GRDI) (gadm_2)            | GID_2                                      | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| Aggregated Global Relative Deprivation Index Data (GRDI) (ocha_1 and ocha_2) | ADM1_PCODE                                 | Division (adm1) polygon | OCHA subnational polygons (**ADM1_PCODE**)(**ADM2_PCODE**)  |
+|                                                                              |                                            |                         |                                                             |
+|                                                                              | ADM2_PCODE                                 | District (adm2) polygon |                                                             |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| WFP - Rainfall at Subnational Level                                          | ADM2_PCODE                                 | District (adm2) polygon | OCHA subnational polygons (**ADM2_PCODE**)                  |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+| WFP - NVDI at Subnational Level                                              | ADM2_PCODE                                 | District (adm2) polygon | OCHA subnational polygons (**ADM2_PCODE**)                  |
++------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
