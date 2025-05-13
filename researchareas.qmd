@@ -1,4 +1,4 @@
-# Research Areas {.unnumbered}
+# Problem Statements {.unnumbered}
 
 Participants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the **Week of May 12th.**
 

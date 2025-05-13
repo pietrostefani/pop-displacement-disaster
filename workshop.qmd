@@ -30,7 +30,7 @@ If you need assistance, please reach out to the event organizers.
 
 -   **11:00–11:20** – Using Facebook Movement During Crisis – Dr. Carmen Cabrera-Arnau & Prof. Francisco Rowe\
 -   **11:20–11:30** – Hackathon Problem Statements - Hong Tran-Jones (IOM DTM)
--   **11:30–11:50** – Facebook Population and Movement Data – Matt Mason (UoL)
+-   **11:30–11:50** – Hackathon Data – Matt Mason (UoL)
 -   **11:50–12:10** – IOM Pakistan Data – Ellen Van de Weghe (IOM Pakistan)
 -   **12:10–12:40** – Accessing Your Data and Creating an Infographic: A Short Demo using Hackathon Data – Euan Newlands (Snowflake)
 -   **12:40–13:00** – Questions & Discussion

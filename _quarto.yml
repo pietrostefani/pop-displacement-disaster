@@ -10,9 +10,8 @@ book:
     - index.qmd
     - overview.qmd
     - workshop.qmd
-    - part: hackathon.qmd
+    - part: probstatement.qmd
       chapters:
-        - probstatement.qmd
         - casestudy.qmd
         - datasets.qmd
         - output.qmd

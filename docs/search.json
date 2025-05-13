@@ -119,56 +119,56 @@
   {
     "objectID": "researchareas.html",
     "href": "researchareas.html",
-    "title": "Research Areas",
+    "title": "Problem Statements",
     "section": "",
     "text": "1. Event-Based or Rapid Response: Developing Key Indicators\nParticipants must select one of the following research areas to focus on during the Hackathon. Each group is required to confirm their chosen area during the pre-event meeting, which will be held the Week of May 12th.\nAll teams are required to use at least one of the provided datasets (e.g., Meta, IOM). Given the limited timeframe of the Hackathon, the use of additional datasets is generally discouraged; however, if you have a specific data source in mind that supports your concept, please consult the organisers in advance. The organising team is available to answer any questions and provide further guidance in the lead-up to the event.\nFocus on generating timely, actionable indicators from Facebook and IOM data to support immediate disaster response operations.",
     "crumbs": [
       "Hackathon",
-      "Research Areas"
+      "Problem Statements"
     ]
   },
   {
     "objectID": "researchareas.html#event-based-or-rapid-response-developing-key-indicators",
     "href": "researchareas.html#event-based-or-rapid-response-developing-key-indicators",
-    "title": "Research Areas",
+    "title": "Problem Statements",
     "section": "",
     "text": "Develop key indicators from Meta data such as displacement rates, volume of movement, identification of vulnerable populations, or most affected regions.\nExplore how these indicators compare with—or can be enriched by—IOM data collected in reference to the 2022 flooding event in Pakistan.\nWhat aspects of local population, their movements and geographical context are most useful to humanitarian responders in the first hours and days of a disaster?",
     "crumbs": [
       "Hackathon",
-      "Research Areas"
+      "Problem Statements"
     ]
   },
   {
     "objectID": "researchareas.html#learning-from-the-past-patterns-and-resilience",
     "href": "researchareas.html#learning-from-the-past-patterns-and-resilience",
-    "title": "Research Areas",
+    "title": "Problem Statements",
     "section": "2. Learning from the Past: Patterns and Resilience",
     "text": "2. Learning from the Past: Patterns and Resilience\nAnalyse data to identify behavioural trends and resilience patterns from the 2022 floods to today (IOM Pakistan Flood Responses Rounds 1-6).\n\nAre there repeated behavioural patterns in terms of population movement, key origins, key destinations and population distribution across different flood events in Pakistan?\nWhich regions show higher levels of resilience, and what factors contribute to that resilience (e.g., infrastructure, demographics, preparedness)?\nUse comparative analysis to highlight learnings that can inform future planning and interventions.",
     "crumbs": [
       "Hackathon",
-      "Research Areas"
+      "Problem Statements"
     ]
   },
   {
     "objectID": "researchareas.html#predicting-future-movement-mobility-modelling",
     "href": "researchareas.html#predicting-future-movement-mobility-modelling",
-    "title": "Research Areas",
+    "title": "Problem Statements",
     "section": "3. Predicting Future Movement: Mobility Modelling",
     "text": "3. Predicting Future Movement: Mobility Modelling\nDevelop predictive models to forecast displacement patterns in future disaster scenarios by leveraging social, economic, and geographic indicators, using data from the International Organization for Migration (IOM) and Facebook (Meta) mobility data.\n\nWhat kinds of areas are most likely to receive displaced populations? (more vulnerable communities?)\nCan we identify a systematic set of predictors for where people move from and to during disasters?\nHow can the information extracted from these analyses be used to improve preparedness and resource allocation in high-risk regions and destination community areas.",
     "crumbs": [
       "Hackathon",
-      "Research Areas"
+      "Problem Statements"
     ]
   },
   {
     "objectID": "researchareas.html#relationship-between-flood-severity-extent-of-displacement",
     "href": "researchareas.html#relationship-between-flood-severity-extent-of-displacement",
-    "title": "Research Areas",
+    "title": "Problem Statements",
     "section": "4. Relationship between Flood Severity & Extent of Displacement",
     "text": "4. Relationship between Flood Severity & Extent of Displacement\n\nHow are flood severity metrics associated with higher displacement volumes or longer displacement durations?\nCan threshold points in flood impact metrics be identified? That is points beyond which displacement becomes significantly more likely\nHow do displacement outcomes differ in high-severity vs. low-severity flood zones?",
     "crumbs": [
       "Hackathon",
-      "Research Areas"
+      "Problem Statements"
     ]
   },
   {
@@ -279,7 +279,7 @@
     "href": "workshop.html#day-1---may-21st-2025",
     "title": "Workshop",
     "section": "",
-    "text": "Joining Online – 9:00–13:00\nParticipants can join the workshop remotely via Microsoft Teams.\nJoin the meeting now: Click here to join\nMeeting ID: 311 232 317 588\nPasscode: eY2xq6eD\nIf you need assistance, please reach out to the event organizers.\n\n\n9:00–11:00\n\n9:00–9:30 – Welcome, Introductions & Agenda – Prof. Francisco Rowe (UoL)\n9:30–9:50 – Assessing Non-traditional Data Sources – Kate Hodkinson (OCHA)\n\n9:50–10:10 – Data and findings from the project – Dr. Elisabetta Pietrostefani (UoL)\n10:10–10:30 – Lessons learned from the project Digital Trace Data for Population Displacement – Matt Mason (UoL)\n10:30–10:45 – Questions & Discussion\n\n\n10:45–11:00 – Coffee Break\n\n\n\n11:00–13:00\n\n11:00–11:20 – Using Facebook Movement During Crisis – Dr. Carmen Cabrera-Arnau & Prof. Francisco Rowe\n\n11:20–11:30 – Hackathon Problem Statements - Hong Tran-Jones (IOM DTM)\n11:30–11:50 – Facebook Population and Movement Data – Matt Mason (UoL)\n11:50–12:10 – IOM Pakistan Data – Ellen Van de Weghe (IOM Pakistan)\n12:10–12:40 – Accessing Your Data and Creating an Infographic: A Short Demo using Hackathon Data – Euan Newlands (Snowflake)\n12:40–13:00 – Questions & Discussion\n\n\n\n13:00–14:00\nNetworking Lunch\n\n\n14:00–17:00\n\nHackathon Session 1\n\n\n\n17:00–18:00\n\nTeam Progress Updates: Goals and Objectives\n\n\n\nEvening\n18:30–21:00 – Networking Dinner",
+    "text": "Joining Online – 9:00–13:00\nParticipants can join the workshop remotely via Microsoft Teams.\nJoin the meeting now: Click here to join\nMeeting ID: 311 232 317 588\nPasscode: eY2xq6eD\nIf you need assistance, please reach out to the event organizers.\n\n\n9:00–11:00\n\n9:00–9:30 – Welcome, Introductions & Agenda – Prof. Francisco Rowe (UoL)\n9:30–9:50 – Assessing Non-traditional Data Sources – Kate Hodkinson (OCHA)\n\n9:50–10:10 – Data and findings from the project – Dr. Elisabetta Pietrostefani (UoL)\n10:10–10:30 – Lessons learned from the project Digital Trace Data for Population Displacement – Matt Mason (UoL)\n10:30–10:45 – Questions & Discussion\n\n\n10:45–11:00 – Coffee Break\n\n\n\n11:00–13:00\n\n11:00–11:20 – Using Facebook Movement During Crisis – Dr. Carmen Cabrera-Arnau & Prof. Francisco Rowe\n\n11:20–11:30 – Hackathon Problem Statements - Hong Tran-Jones (IOM DTM)\n11:30–11:50 – Hackathon Data – Matt Mason (UoL)\n11:50–12:10 – IOM Pakistan Data – Ellen Van de Weghe (IOM Pakistan)\n12:10–12:40 – Accessing Your Data and Creating an Infographic: A Short Demo using Hackathon Data – Euan Newlands (Snowflake)\n12:40–13:00 – Questions & Discussion\n\n\n\n13:00–14:00\nNetworking Lunch\n\n\n14:00–17:00\n\nHackathon Session 1\n\n\n\n17:00–18:00\n\nTeam Progress Updates: Goals and Objectives\n\n\n\nEvening\n18:30–21:00 – Networking Dinner",
     "crumbs": [
       "Workshop"
     ]
@@ -297,12 +297,12 @@
   {
     "objectID": "probstatement.html",
     "href": "probstatement.html",
-    "title": "Problem statement",
+    "title": "Hackathon",
     "section": "",
     "text": "Building on work by the University of Liverpool and IOM using digital data to track displacement in conflict settings, the Hackathon explores how similar approaches can be applied in the context of climate-induced natural hazards. In the aftermath of such disasters, understanding internal displacement patterns is vital for effective humanitarian response.\nWhile traditional survey-based methods, like those used by IOM, offer valuable insights in informing operational responses to mitigate the effect of disasters, they often take time to develop and be fully operational. Digital-trace data present opportunities for more timely, detailed, and dynamic tracking of population movements before and after climate events, to inform rapid response operations and support spatially targeted interventions.\nDuring the Hackathon, participants will utilise Meta’s “Facebook Movement During Crisis” and “Facebook Population During Crisis” data derived from mobile phone location records, alongside IOM’s displacement data.\n\nThe Facebook Movement dataset records the movements of Facebook users, showing how people travel between different areas during a crisis. It includes both the typical movement patterns observed before the crisis and the actual movements during the event, allowing for a comparison between the two.\nThe Population dataset includes information about the number of active Facebook users in a specific area during a crisis, the typical number of active users in that area before the crisis, and the difference between these two values.\n\nBy integrating these datasets with traditional sources and socio-economic variables, teams will explore innovative approaches to enhance disaster response, optimise resource allocation, and develop predictive models for future crises.",
     "crumbs": [
       "Hackathon",
-      "Problem statement"
+      "Hackathon"
     ]
   },
   {
