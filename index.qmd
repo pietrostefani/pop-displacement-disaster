@@ -1,6 +1,6 @@
 # Welcome {.unnumbered}
 
-This website hosts the materials the final workshop & hackaton of Project: **Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data** by Dr. Elisabetta Pietrostefani, Matt Mason and Prof. Francisco Rowe from the University of Liverpool and Hong Tran-Jones from IOM UN Migration - Displacement Tracking Matrix.
+This website hosts the materials for the final workshop & hackaton of Project: **Dynamic Estimates of Displacement in Disaster Regions: A Policy-Driven Framework Triangulating Data** by Dr. Elisabetta Pietrostefani, Matt Mason and Prof. Francisco Rowe from the University of Liverpool and Hong Tran-Jones from IOM UN Migration - Displacement Tracking Matrix.
 
 Conducted in collaboration with the [International Organization for Migration’s Displacement Tracking Matrix (DTM)](https://dtm.iom.int/) and [Snowflake Inc.](https://www.snowflake.com/en/company/overview/end-data-disparity/), this project explores innovative ways to estimate displacement in disaster-affected regions. By comparing digital trace data with traditional data sources, it aims to develop a robust, policy-driven framework for triangulating and enhancing displacement estimates.
 

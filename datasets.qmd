@@ -50,7 +50,7 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
 -   These data are collated and published by the IOM’s Displacement Tracking Matrix (DTM) team. The primary data produced for Pakistan by the IOM in the context of the 2022 floods are the Flood Response Community Needs Identification (CNI) datasets. These data are collated and published in rounds; six rounds have been run so far, though data for Round 5 is not publicly available.
 
--   Data from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below. These data are often very challenging to collect, and, as a result, each round does not cover the exact same areas, or collect the same level of data. 
+-   Data from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below. These data are often very challenging to collect, and, as a result, each round does not cover the exact same areas, or collect the same level of data.
 
 -   The data are provided at the village/settlement level. Also included are variables for division, district and Tehsil. For the first two, codes are provided also to make them easier to be joined to spatial boundaries. These codes are p-codes, a geographic framework commonly used by the Office for the Coordination of Humanitarian Affairs (OCHA) to link data to administrative areas. **These geographies and codes do not map onto those that the Facebook Population and Movement data are aggregated to.** A short guide on the different geographies is provided at the end of this guidance page.
 
@@ -94,7 +94,7 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
 -   Climate data:
 
-    -   Dekadal (10-day) rainfall data from 20201 at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for rainfall, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational).
+    -   Dekadal (10-day) rainfall data from 2021 at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for rainfall, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational).
 
     -   Dekadal (10-day) Normalized Difference Vegetation Index (NDVI) data from 2021 at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for vegetian greenness, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational), normally used to quantify the health and density of vegetation.
 
