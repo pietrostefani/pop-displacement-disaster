@@ -96,7 +96,7 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 
     -   Dekadal (10-day) rainfall data from 2021 onward at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for rainfall, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational).
 
-    -   Dekadal (10-day) Normalized Difference Vegetation Index (NDVI) data from 2021 onward at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for vegetation greenness, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational), normally used to quantify the health and density of vegetation.
+    -   Dekadal (10-day) Normalized Difference Vegetation Index (NDVI) data from 2021 onward at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for vegetation greenness, listed [here](https://data.humdata.org/dataset/pak-ndvi-subnational), normally used to quantify the health and density of vegetation.
 
 ### 2.4. Spatial Boundaries
 
