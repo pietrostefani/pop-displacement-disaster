@@ -1,3 +1,22 @@
 # Resources {.unnumbered}
 
-Coming Soon
+Whether you're here before the hackathon to sharpen your skills, or you're looking for some pre-preapared code snippets to start from, you've come to the right place!
+
+### Snowflake Quickstarts
+Quickstarts are exactly that, follow along tutorials with step by step walkthroughs - perfect for using as template code:
+
+- [Tasty Bytes - Zero to Snowflake - Geospatial](https://quickstarts.snowflake.com/guide/tasty_bytes_zero_to_snowflake_geospatial/index.html?index=..%2F..index#0) 
+- [Getting started with Geospatial - Geography](https://quickstarts.snowflake.com/guide/getting_started_with_geospatial_geography/index.html?index=..%2F..index#0) 
+- [Geospatial Analysis of Precisely Datasets using Snowflake Notebooks and Streamlit](https://quickstarts.snowflake.com/guide/using_precisely_enrich_data/index.html?index=..%2F..index#0) 
+- [Using Snowflake Cortex (AI) and Streamlit with Geospatial Data](https://quickstarts.snowflake.com/guide/using_snowflake_cortex_and_streamlit_with_geospatial_data/index.html?index=..%2F..index#0) 
+- [Snowpark Intro](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_dataframe_api/index.html#0)
+
+### Snowflake Docs
+Here are some useful places to look before and during the hackathon:
+
+- [Geospatial Data Types](https://docs.snowflake.com/en/sql-reference/data-types-geospatial)
+- [Geospatial Functions](https://docs.snowflake.com/en/sql-reference/functions-geospatial)
+- [Snowpark Dataframe developer reference](https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/latest/snowpark/api/snowflake.snowpark.DataFrame)
+
+### Demos and more content
+Check out this event page for some handpicked content: *coming soon* 
