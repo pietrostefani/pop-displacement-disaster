@@ -1,4 +1,13 @@
 # References {.unnumbered}
 
-::: {#refs}
-:::
+International Organization for Migration (IOM), Dec 30 2024. DTM Pakistan – [Flood Response Community Needs Identification (CNI) | Round 6 – Balochistan and Khyber Pakhtunkhwa Provinces (August 2024)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-6-balochistan-and-khyber). IOM, Pakistan.
+
+Iradukunda, R., Rowe, F., & Pietrostefani, E. (2025). [Producing population-level estimates of internal displacement in Ukraine using GPS mobile phone data](https://osf.io/preprints/osf/xgkad_v1). arXiv preprint arXiv:2504.00003.
+
+Otto, F. E., Zachariah, M., Saeed, F., Siddiqi, A., Kamil, S., Mushtaq, H., ... & Clarke, B. (2023). [Climate change increased extreme monsoon rainfall, flooding highly vulnerable communities in Pakistan](https://iopscience.iop.org/article/10.1088/2752-5295/acbfd5/meta). Environmental Research: Climate, 2(2), 025001.
+
+Rowe, F. (2022). [Using digital footprint data to monitor human mobility and support rapid humanitarian responses](https://www.tandfonline.com/doi/pdf/10.1080/21681376.2022.2135458). Regional Studies, Regional Science, 9(1), 665-668.
+
+Waleed, M., & Sajjad, M. (2025). [High-resolution flood susceptibility mapping and exposure assessment in Pakistan: An integrated artificial intelligence, machine learning and geospatial framework](https://www.sciencedirect.com/science/article/pii/S2212420925002663?dgcid=rss_sd_all). International Journal of Disaster Risk Reduction, 121(10544), 2.
+
+
