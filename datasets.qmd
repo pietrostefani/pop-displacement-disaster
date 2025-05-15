@@ -22,7 +22,7 @@ The human mobility datasets provided for the Hackathon fall into one of two cate
 
 ## 1. Data Access
 
-All the data mentioned in this document has been uploaded onto Snowflake’s systems. As part of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and use data within their system and will be available throughout the event to answer any queries.
+All the data mentioned in this document has been uploaded onto Snowflake. As part of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and analyse the data in Snowflake. They will be available throughout the event to answer any queries.
 
 ## 2. Datasets
 
@@ -35,6 +35,8 @@ All the data mentioned in this document has been uploaded onto Snowflake’s sys
 -   These data consist of two datasets, Population During Crisis and Movement During Crisis:
 
     -   Population – these are population stock data, showing the number of users in each spatial unit at three snapshots: 00:00, 8:00 and 16:00 (Pacific Time). The data are removed when there are fewer than 10 observations.
+        - **Snowflake Schema:** `META_DATA_FOR_GOOD`
+        - **Snowflake Views:** `ADMIN_L2_AGGREGATED_POPULATION` and `TILE_POPULATION`
 
     -   Movement – these are population flow data, showing the origin and destination of users between temporal points. Users' origin and destination are chosen according to where they spent most time within each 8-hour window. For example, data recorded at 16:00 shows the flow between areas from 08:00 to 16:00. Where there are fewer than 10 observations for a flow, data are removed. The Pakistan data available for the Movement data are only at the 08:00 and 16:00 time periods, but not for the 00:00 period.
 
