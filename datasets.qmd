@@ -1,6 +1,6 @@
 # Data {.unnumbered}
 
-This section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found [here](probstatement.qmd) and should be referred to regarding the event’s purpose and objectives.
+This section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found [here](researchareas.qmd) and should be referred to regarding the event’s purpose and objectives.
 
 The human mobility datasets provided for the Hackathon fall into one of two categories: digital data (from Meta) or key informant survey data (from IOM). The table below outlines these, summarising their accessibility, processing and stability. In addition, contextual data on Pakistan is provided to help with analysis, as well as a variety of spatial boundaries that can be used to map the provided datasets. Each dataset is outlined below, alongside any available documentation and guidance for analysis.
 
@@ -22,7 +22,7 @@ The human mobility datasets provided for the Hackathon fall into one of two cate
 
 ## 1. Data Access
 
-All the data mentioned in this document has been uploaded onto Snowflake. As part of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and analyse the data in Snowflake. They will be available throughout the event to answer any queries.
+All the data mentioned in this document has been uploaded onto Snowflake. As part of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and analyse the data in Snowflake. They will be available throughout the event to answer any queries and a series of guides on using Snowflake can be found on [this section](snowflake.qmd) of the webpage.
 
 ## 2. Datasets
 
@@ -94,17 +94,21 @@ All the data mentioned in this document has been uploaded onto Snowflake. As par
 
 -   Aggregated population data:
 
-    -   Population estimates for Pakistan for 2020 from the [WorldPop](https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop) raster, aggregated to global administrative level 2, and the division and district polygons used by OCHA. The data is calculated by the project team using WorldPop data and spatial polygons provided by [GADM](https://gadm.org/data.html) and [OCHA](https://data.humdata.org/dataset/cod-ab-pak).
+    -   Population estimates for Pakistan for 2020 from the [WorldPop](https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop) raster, aggregated (*total_pop*) to global administrative level 2, and the division and district polygons used by OCHA. The data is calculated by the project team using WorldPop data and spatial polygons provided by [GADM](https://gadm.org/data.html) and [OCHA](https://data.humdata.org/dataset/cod-ab-pak).
         - **Snowflake Schema:** `CONTEXTUAL_DATA`
         - **Snowflake Views:** `POPULATION_PAKISTAN_2020_*`
 
 -   Socioeconomic data:
 
-    -   Deprivation data from The Global Gridded Relative Deprivation Index ([GRDI](https://earth.gov/data-catalog/grdi-v1)). The data is a raster file at 1km resolution, cropped to Pakistan. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed [here](https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf). These have also been aggregated to global administrative level 2 and the division and district polygons used by OCHA by computing the mean value within the polygon from the GRDI raster data.
+    -   Deprivation data from The Global Gridded Relative Deprivation Index ([GRDI](https://earth.gov/data-catalog/grdi-v1)). The data is a raster file at 1km resolution, cropped to Pakistan. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed [here](https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf). These have also been aggregated to global administrative level 2 and the division and district polygons used by OCHA by computing the mean value (*mean_rdi*) within the polygon from the GRDI raster data.
         - **Snowflake Schema:** `CONTEXTUAL_DATA`
         - **Snowflake Views:** `GRDI_*`
 
 -   Climate data:
+
+    -   Satellite detected water extents in Pakistan between 01 and 29 August 2022. The data is a series of shapefiles showing flood extent based on satellite imagery. Data is from the UN Operational Satellite Applications Programme (UNOSAT), found [here](https://data.humdata.org/dataset/satellite-detected-water-extents-between-01-and-29-august-2022-over-pakistan).
+
+    -   Sentinel-1 based analysis of Pakistan floods, capturing flood progression between 10 August and 23 September 2022. Data is sourced from [TU Wein](https://researchdata.tuwien.at/records/zvvmh-nan78) and is compromised of two raster layers at 20-metre resolution: *first_flood_detection.tif*, the day the flood was first detected, recorded as day-of-year (DOY), and *flood_frequency.tif*, the percentage of valid observations in which a flood was detected (a proxy for flood permanence).
 
     -   Dekadal (10-day) rainfall data from 2021 onward at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for rainfall, listed [here](https://data.humdata.org/dataset/pak-rainfall-subnational).
 
