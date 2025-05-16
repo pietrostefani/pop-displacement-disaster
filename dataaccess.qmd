@@ -1,6 +1,9 @@
 # Data Access {.unnumbered}
 
+## Access your Snowflake account
 To access your Snowflake account follow the instructions here: *Coming Soon*
+
+## Working in Snowflake
 
 Once you have access to your Snowflake account, to set up your Snowflake Notebook, follow the following steps:
 
@@ -37,3 +40,7 @@ Once you have access to your Snowflake account, to set up your Snowflake Noteboo
 
 
 5. Your Snowflake Notebook is ready to go! Create Markdown, SQL or Python cells to support you on your mission!
+
+## Working locally
+
+If you prefer to work locally, you can use this [Jupyter Notebook]() that has the information needed for you to connect to your Snowflake account from your laptop.

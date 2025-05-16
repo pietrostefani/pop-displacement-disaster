@@ -185,12 +185,12 @@
   {
     "objectID": "dataaccess.html",
     "href": "dataaccess.html",
-    "title": "Data access",
+    "title": "Data Access",
     "section": "",
-    "text": "Coming Soon",
+    "text": "Access your Snowflake account\nTo access your Snowflake account follow the instructions here: Coming Soon",
     "crumbs": [
       "Snowflake",
-      "Data access"
+      "Data Access"
     ]
   },
   {
@@ -322,6 +322,28 @@
     "text": "International Organization for Migration (IOM), Dec 30 2024. DTM Pakistan – Flood Response Community Needs Identification (CNI) | Round 6 – Balochistan and Khyber Pakhtunkhwa Provinces (August 2024). IOM, Pakistan.\nIradukunda, R., Rowe, F., & Pietrostefani, E. (2025). Producing population-level estimates of internal displacement in Ukraine using GPS mobile phone data. arXiv preprint arXiv:2504.00003.\nOtto, F. E., Zachariah, M., Saeed, F., Siddiqi, A., Kamil, S., Mushtaq, H., … & Clarke, B. (2023). Climate change increased extreme monsoon rainfall, flooding highly vulnerable communities in Pakistan. Environmental Research: Climate, 2(2), 025001.\nRowe, F. (2022). Using digital footprint data to monitor human mobility and support rapid humanitarian responses. Regional Studies, Regional Science, 9(1), 665-668.\nWaleed, M., & Sajjad, M. (2025). High-resolution flood susceptibility mapping and exposure assessment in Pakistan: An integrated artificial intelligence, machine learning and geospatial framework. International Journal of Disaster Risk Reduction, 121(10544), 2.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "dataaccess.html#working-in-snowflake",
+    "href": "dataaccess.html#working-in-snowflake",
+    "title": "Data Access",
+    "section": "Working in Snowflake",
+    "text": "Working in Snowflake\nOnce you have access to your Snowflake account, to set up your Snowflake Notebook, follow the following steps:\n\nIn the Home page, where you land when you log in, select + Create &gt; Notebook &gt; New Notebook\n\n\n\n\n\nIn the pop up window, select the following options, then hit Create\n\n\n\n\n\nIn the Databases tab, you’ll find all the datasets available to you inside the PAKISTAN_FLOODS_2022_DATA database. Note the Schemas align to the dataset categories shared on the Data page\n\n\n\n\n\nNavigate to the top right Packages dropdown to install your favourite Python packages from the Snowflake Conda Channel for you to use\n\n\n\n\n\nYour Snowflake Notebook is ready to go! Create Markdown, SQL or Python cells to support you on your mission!",
+    "crumbs": [
+      "Snowflake",
+      "Data Access"
+    ]
+  },
+  {
+    "objectID": "dataaccess.html#working-locally",
+    "href": "dataaccess.html#working-locally",
+    "title": "Data Access",
+    "section": "Working locally",
+    "text": "Working locally\nIf you prefer to work locally, you can use this Jupyter Notebook that has the information needed for you to connect to your Snowflake account from your laptop.",
+    "crumbs": [
+      "Snowflake",
+      "Data Access"
     ]
   }
 ]

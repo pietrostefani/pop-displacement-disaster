@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data access – Dynamic Estimates of Displacement in Disaster Regions</title>
+<title>Data Access – Dynamic Estimates of Displacement in Disaster Regions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,10 +70,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Data access – Dynamic Estimates of Displacement in Disaster Regions">
+<meta name="twitter:title" content="Data Access – Dynamic Estimates of Displacement in Disaster Regions">
 <meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://pietrostefani.github.io/pop-displacement-disaster/img/snow/create_notebook.png">
 <meta name="twitter:creator" content="@EPietrostefani">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="384">
+<meta name="twitter:image-width" content="514">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating">
@@ -85,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./snowflake.html">Snowflake</a></li><li class="breadcrumb-item"><a href="./dataaccess.html">Data access</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./snowflake.html">Snowflake</a></li><li class="breadcrumb-item"><a href="./dataaccess.html">Data Access</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -150,19 +153,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./hackathon.html" class="sidebar-item-text sidebar-link">
+            <a href="./probstatement.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hackathon</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./probstatement.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hackathon</span></a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./casestudy.html" class="sidebar-item-text sidebar-link">
@@ -201,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dataaccess.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Data access</span></a>
+ <span class="menu-text">Data Access</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -226,14 +223,22 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p><img src="./logos_web.png" class="img-fluid"></p>
 </div></div>
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#access-your-snowflake-account" id="toc-access-your-snowflake-account" class="nav-link active" data-scroll-target="#access-your-snowflake-account">Access your Snowflake account</a></li>
+  <li><a href="#working-in-snowflake" id="toc-working-in-snowflake" class="nav-link" data-scroll-target="#working-in-snowflake">Working in Snowflake</a></li>
+  <li><a href="#working-locally" id="toc-working-locally" class="nav-link" data-scroll-target="#working-locally">Working locally</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/pietrostefani/pop-displacement-disaster/edit/main/dataaccess.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./snowflake.html">Snowflake</a></li><li class="breadcrumb-item"><a href="./dataaccess.html">Data access</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./snowflake.html">Snowflake</a></li><li class="breadcrumb-item"><a href="./dataaccess.html">Data Access</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Data access</h1>
+<h1 class="title">Data Access</h1>
 </div>
 
 
@@ -250,9 +255,47 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming Soon</p>
+<section id="access-your-snowflake-account" class="level2">
+<h2 class="anchored" data-anchor-id="access-your-snowflake-account">Access your Snowflake account</h2>
+<p>To access your Snowflake account follow the instructions here: <em>Coming Soon</em></p>
+</section>
+<section id="working-in-snowflake" class="level2">
+<h2 class="anchored" data-anchor-id="working-in-snowflake">Working in Snowflake</h2>
+<p>Once you have access to your Snowflake account, to set up your Snowflake Notebook, follow the following steps:</p>
+<ol type="1">
+<li>In the Home page, where you land when you log in, select <strong>+ Create</strong> &gt; <strong>Notebook</strong> &gt; <strong>New Notebook</strong></li>
+</ol>
+<div style="text-align: center;">
+<p><img src="img/snow/create_notebook.png" width="400"></p>
+</div>
+<ol start="2" type="1">
+<li>In the pop up window, select the following options, then hit <strong>Create</strong></li>
+</ol>
+<div style="text-align: center;">
+<p><img src="img/snow/notebook_options.png" width="400"></p>
+</div>
+<ol start="3" type="1">
+<li>In the <strong>Databases</strong> tab, you’ll find all the datasets available to you inside the <code>PAKISTAN_FLOODS_2022_DATA</code> database. Note the Schemas align to the dataset categories shared on the Data page</li>
+</ol>
+<div style="text-align: center;">
+<p><img src="img/snow/databases.png" width="400"></p>
+</div>
+<ol start="4" type="1">
+<li>Navigate to the top right <strong>Packages</strong> dropdown to install your favourite Python packages from the <a href="https://repo.anaconda.com/pkgs/snowflake/">Snowflake Conda Channel</a> for you to use</li>
+</ol>
+<div style="text-align: center;">
+<p><img src="img/snow/anaconda_packages.png" width="400"></p>
+</div>
+<ol start="5" type="1">
+<li>Your Snowflake Notebook is ready to go! Create Markdown, SQL or Python cells to support you on your mission!</li>
+</ol>
+</section>
+<section id="working-locally" class="level2">
+<h2 class="anchored" data-anchor-id="working-locally">Working locally</h2>
+<p>If you prefer to work locally, you can use this <a href="">Jupyter Notebook</a> that has the information needed for you to connect to your Snowflake account from your laptop.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -692,7 +735,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/pietrostefani/pop-displacement-disaster/edit/main/dataaccess.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pietrostefani/pop-displacement-disaster/edit/main/dataaccess.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
