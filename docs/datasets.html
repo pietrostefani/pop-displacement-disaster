@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dataaccess.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data access</span></a>
+ <span class="menu-text">Data Access</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -257,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found <a href="./probstatement.html">here</a> and should be referred to regarding the event’s purpose and objectives.</p>
+<p>This section of the webpage briefly outlines the datasets that should be used during the Hackathon and provides related resources and documentation. The Hackathon’s problem statement can be found <a href="./researchareas.html">here</a> and should be referred to regarding the event’s purpose and objectives.</p>
 <p>The human mobility datasets provided for the Hackathon fall into one of two categories: digital data (from Meta) or key informant survey data (from IOM). The table below outlines these, summarising their accessibility, processing and stability. In addition, contextual data on Pakistan is provided to help with analysis, as well as a variety of spatial boundaries that can be used to map the provided datasets. Each dataset is outlined below, alongside any available documentation and guidance for analysis.</p>
 <table class="caption-top table">
 <colgroup>
@@ -305,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <section id="data-access" class="level2">
 <h2 class="anchored" data-anchor-id="data-access">1. Data Access</h2>
-<p>All the data mentioned in this document has been uploaded onto Snowflake’s systems. As part of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and use data within their system and will be available throughout the event to answer any queries.</p>
+<p>All the data mentioned in this document has been uploaded onto Snowflake. As part of the Hackathon, Snowflake colleagues will provide a tutorial on how to access and analyse the data in Snowflake. They will be available throughout the event to answer any queries and a series of guides on using Snowflake can be found on <a href="./snowflake.html">this section</a> of the webpage.</p>
 </section>
 <section id="datasets" class="level2">
 <h2 class="anchored" data-anchor-id="datasets">2. Datasets</h2>
@@ -316,8 +316,16 @@ ul.task-list li input[type="checkbox"] {
 <li><p>For the Hackathon, we are using the data available in the immediate aftermath of the 2022 Pakistan floods. The data refer to the period 14 August 2022 – 7 September 2022 and are at two geographic scales: 800m tiles (known as quadkeys, based on the <a href="https://learn.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system">Bing Maps tile system</a>) and aggregated to global administrative (<a href="https://gadm.org/data.html">GADM</a>) level 2 geographies.</p></li>
 <li><p>These data consist of two datasets, Population During Crisis and Movement During Crisis:</p>
 <ul>
-<li><p>Population – these are population stock data, showing the number of users in each spatial unit at three snapshots: 00:00, 8:00 and 16:00 (Pacific Time). The data are removed when there are fewer than 10 observations.</p></li>
-<li><p>Movement – these are population flow data, showing the origin and destination of users between temporal points. Users’ origin and destination are chosen according to where they spent most time within each 8-hour window. For example, data recorded at 16:00 shows the flow between areas from 08:00 to 16:00. Where there are fewer than 10 observations for a flow, data are removed. The Pakistan data available for the Movement data are only at the 08:00 and 16:00 time periods, but not for the 00:00 period.</p></li>
+<li>Population – these are population stock data, showing the number of users in each spatial unit at three snapshots: 00:00, 8:00 and 16:00 (Pacific Time). The data are removed when there are fewer than 10 observations.
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>META_DATA_FOR_GOOD</code></li>
+<li><strong>Snowflake Views:</strong> <code>ADMIN_L2_AGGREGATED_POPULATION</code> and <code>TILE_POPULATION</code></li>
+</ul></li>
+<li>Movement – these are population flow data, showing the origin and destination of users between temporal points. Users’ origin and destination are chosen according to where they spent most time within each 8-hour window. For example, data recorded at 16:00 shows the flow between areas from 08:00 to 16:00. Where there are fewer than 10 observations for a flow, data are removed. The Pakistan data available for the Movement data are only at the 08:00 and 16:00 time periods, but not for the 00:00 period.
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>META_DATA_FOR_GOOD</code></li>
+<li><strong>Snowflake Views:</strong> <code>ADMIN_L2_AGGREGATED_MOVEMENT</code> and <code>TILE_MOVEMENT</code></li>
+</ul></li>
 </ul></li>
 <li><p>The data are generally comprehensive, but there are some gaps, largely due to collection issues at Meta’s end. For example, in both the tiled and aggregated Movement data, only the 08:00 and 16:00 time stamps are available, with the 00:00 period missing. Additionally, the aggregated Population data for 20, 21 and 22 August are also missing.</p></li>
 <li><p>Both datasets contain data from a baseline period before the disaster event to compare users’ stock or flow during the crisis. The raw and percentage differences are provided within the dataset, along with a z-score to assess the statistical significance of the change from the pre-crisis baseline to the crisis period.</p></li>
@@ -329,6 +337,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="iom-data">2.2. IOM Data</h3>
 <ul>
 <li><p>These data are collated and published by the IOM’s Displacement Tracking Matrix (DTM) team. The primary data produced for Pakistan by the IOM in the context of the 2022 floods are the Flood Response Community Needs Identification (CNI) datasets. These data are collated and published in rounds; six rounds have been run so far, though data for Round 5 is not publicly available.</p></li>
+<li><p>The data for all 5 publicly available rounds can be found in <strong>Snowflake Schema:</strong> <code>IOM_CNI_DATA</code></p></li>
 <li><p>Data from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below. These data are often very challenging to collect, and, as a result, each round does not cover the exact same areas, or collect the same level of data.</p></li>
 <li><p>The data are provided at the village/settlement level. Also included are variables for division, district and Tehsil. For the first two, codes are provided also to make them easier to be joined to spatial boundaries. These codes are p-codes, a geographic framework commonly used by the Office for the Coordination of Humanitarian Affairs (OCHA) to link data to administrative areas. <strong>These geographies and codes do not map onto those that the Facebook Population and Movement data are aggregated to.</strong> A short guide on the different geographies is provided at the end of this guidance page.</p></li>
 <li><p>For the Hackathon, each data round is provided. The data format and variable names vary slightly between rounds, though each generally provides similar variables and data. Alongside each round of data, a report is also published. Reports can be found here for each round:</p>
@@ -352,20 +361,39 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Raster population data:</p>
 <ul>
 <li><p>Population estimates for Pakistan for 2020 from <a href="https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop">WorldPop</a>. The data is at 100m resolution grids in a single raster file.</p></li>
-<li><p>Population estimates for Pakistan by age and sex for 2020 from <a href="https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop">WorldPop</a>. The data is at 100m resolution grids in a series of rasters. Files are structured like <em>{iso}&nbsp;{gender}&nbsp;{age group}&nbsp;{year}&nbsp;{type}&nbsp;{resolution}.tif</em> - gender fields are f (female), m (male), t (total); age group fields are 00 (0-12 months), 01 (1-4 years), 05 (5-9 years) and so on until 90 (age 90 and above).</p></li>
+<li><p>Population estimates for Pakistan by age and sex for 2020 from <a href="https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop">WorldPop</a>. The data is at 100m resolution grids in a series of rasters. Files are structured like <em>{iso}&nbsp;{gender}&nbsp;{age group}&nbsp;{year}&nbsp;{type}&nbsp;{resolution}.tif</em> - gender fields are f (female), m (male), t (total); age group fields are 00 (0-12 months), 01 (1-4 years), 05 (5-9 years) and so on until 90 (age 90 and above).</p>
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>CONTEXTUAL_DATA</code></li>
+<li><strong>Snowflake View:</strong> <code>POPULATION_BY_SEX_BY_AGE_GROUP_100MTR_RESOLUTION</code></li>
+</ul></li>
 </ul></li>
 <li><p>Aggregated population data:</p>
 <ul>
-<li>Population estimates for Pakistan for 2020 from the <a href="https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop">WorldPop</a> raster, aggregated to global administrative level 2, and the division and district polygons used by OCHA. The data is calculated by the project team using WorldPop data and spatial polygons provided by <a href="https://gadm.org/data.html">GADM</a> and <a href="https://data.humdata.org/dataset/cod-ab-pak">OCHA</a>.</li>
+<li>Population estimates for Pakistan for 2020 from the <a href="https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop">WorldPop</a> raster, aggregated (<em>total_pop</em>) to global administrative level 2, and the division and district polygons used by OCHA. The data is calculated by the project team using WorldPop data and spatial polygons provided by <a href="https://gadm.org/data.html">GADM</a> and <a href="https://data.humdata.org/dataset/cod-ab-pak">OCHA</a>.
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>CONTEXTUAL_DATA</code></li>
+<li><strong>Snowflake Views:</strong> <code>POPULATION_PAKISTAN_2020_*</code></li>
+</ul></li>
 </ul></li>
 <li><p>Socioeconomic data:</p>
 <ul>
-<li>Deprivation data from The Global Gridded Relative Deprivation Index (<a href="https://earth.gov/data-catalog/grdi-v1">GRDI</a>). The data is a raster file at 1km resolution, cropped to Pakistan. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed <a href="https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf">here</a>. These have also been aggregated to global administrative level 2 and the division and district polygons used by OCHA by computing the mean value within the polygon from the GRDI raster data.</li>
+<li>Deprivation data from The Global Gridded Relative Deprivation Index (<a href="https://earth.gov/data-catalog/grdi-v1">GRDI</a>). The data is a raster file at 1km resolution, cropped to Pakistan. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed <a href="https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf">here</a>. These have also been aggregated to global administrative level 2 and the division and district polygons used by OCHA by computing the mean value (<em>mean_rdi</em>) within the polygon from the GRDI raster data.
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>CONTEXTUAL_DATA</code></li>
+<li><strong>Snowflake Views:</strong> <code>GRDI_*</code></li>
+</ul></li>
 </ul></li>
 <li><p>Climate data:</p>
 <ul>
+<li><p>Satellite detected water extents in Pakistan between 01 and 29 August 2022. The data is a series of shapefiles showing flood extent based on satellite imagery. Data is from the UN Operational Satellite Applications Programme (UNOSAT), found <a href="https://data.humdata.org/dataset/satellite-detected-water-extents-between-01-and-29-august-2022-over-pakistan">here</a>.</p></li>
+<li><p>Sentinel-1 based analysis of Pakistan floods, capturing flood progression between 10 August and 23 September 2022. Data is sourced from <a href="https://researchdata.tuwien.at/records/zvvmh-nan78">TU Wein</a> and is compromised of two raster layers at 20-metre resolution: <em>first_flood_detection.tif</em>, the day the flood was first detected, recorded as day-of-year (DOY), and <em>flood_frequency.tif</em>, the percentage of valid observations in which a flood was detected (a proxy for flood permanence).</p></li>
 <li><p>Dekadal (10-day) rainfall data from 2021 onward at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for rainfall, listed <a href="https://data.humdata.org/dataset/pak-rainfall-subnational">here</a>.</p></li>
 <li><p>Dekadal (10-day) Normalized Difference Vegetation Index (NDVI) data from 2021 onward at the district level (coded to OCHA administrative level 2) sourced from the World Food Programme (WFP). Data shows series of metrics for vegetation greenness, listed <a href="https://data.humdata.org/dataset/pak-ndvi-subnational">here</a>, normally used to quantify the health and density of vegetation.</p></li>
+<li><p>Snowflake Data Access:</p>
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>CONTEXTUAL_DATA</code></li>
+<li><strong>Snowflake Views:</strong> <code>CLIMATE_PAKISTAN_*</code></li>
+</ul></li>
 </ul></li>
 </ul>
 </section>
@@ -375,9 +403,21 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Due to recent boundary changes and differing administrative boundaries being used by different organisations, the joining of spatial data together for Pakistan is not a simple task. Much of the data listed above, however, is able to be joined to a spatial boundary to be mapped and analysed. This section describes the spatial boundaries made available, as well a table with details of how the Meta, IOM and contextual datasets can be joined to these.</p></li>
 <li><p>The boundaries available are:</p>
 <ul>
-<li><p>Spatial polygons for global administrative levels, sourced from <a href="https://gadm.org/data.html">GADM</a>. The shapefile boundaries for global administrative levels 0, 1, 2 and 3 and the geopackage for Pakistan are included. These boundaries can be joined to the aggregated Facebook Population and Movement data, as well as the population and deprivation data aggregated to global administrative level 2.</p></li>
-<li><p>Spatial polygons used by OCHA for subnational boundaries of Pakistan. Data is shapefiles for divisions (adm1), districts (adm2) and tehsils (adm3), sourced from <a href="https://data.humdata.org/dataset/cod-ab-pak">OCHA</a>. These boundaries can be joined to the spatial variable codes in the IOM CNI data for divisions and districts, as well as the population and deprivation data aggregated to OCHA administrative level 1 and 2, and to the WFP climate data.</p></li>
-<li><p>Spatial polygons for the 800m tiles (also known as quadkeys) found in the Facebook Population and Movement tile data. These were created from the tile datasets using the R package <a href="https://docs.ropensci.org/quadkeyr/articles/quadkey_to_sf_conversion.html">quadkeyr</a>.</p></li>
+<li>Spatial polygons for global administrative levels, sourced from <a href="https://gadm.org/data.html">GADM</a>. The shapefile boundaries for global administrative levels 0, 1, 2 and 3 and the geopackage for Pakistan are included. These boundaries can be joined to the aggregated Facebook Population and Movement data, as well as the population and deprivation data aggregated to global administrative level 2.
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>SPATIAL_BOUNDARIES</code></li>
+<li><strong>Snowflake Views:</strong> <code>PAKISTAN_GADM_ADMIN_LEVEL_POLYGONS</code></li>
+</ul></li>
+<li>Spatial polygons used by OCHA for subnational boundaries of Pakistan. Data is shapefiles for divisions (adm1), districts (adm2) and tehsils (adm3), sourced from <a href="https://data.humdata.org/dataset/cod-ab-pak">OCHA</a>. These boundaries can be joined to the spatial variable codes in the IOM CNI data for divisions and districts, as well as the population and deprivation data aggregated to OCHA administrative level 1 and 2, and to the WFP climate data.
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>SPATIAL_BOUNDARIES</code></li>
+<li><strong>Snowflake Views:</strong> <code>PAKISTAN_OCHA_ADMIN_LEVEL_POLYGONS</code></li>
+</ul></li>
+<li>Spatial polygons for the 800m tiles (also known as quadkeys) found in the Facebook Population and Movement tile data. These were created from the tile datasets using the R package <a href="https://docs.ropensci.org/quadkeyr/articles/quadkey_to_sf_conversion.html">quadkeyr</a>.
+<ul>
+<li><strong>Snowflake Schema:</strong> <code>SPATIAL_BOUNDARIES</code></li>
+<li><strong>Snowflake Views:</strong> <code>META_QUADKEY_POLYGONS</code></li>
+</ul></li>
 </ul></li>
 <li><p>The below table provides an overview of the variables in each dataset and which boundary they relate to.</p></li>
 </ul>
