@@ -43,4 +43,4 @@ Once you have access to your Snowflake account, to set up your Snowflake Noteboo
 
 ## Working locally
 
-If you prefer to work locally, you can use this [Jupyter Notebook]() that has the information needed for you to connect to your Snowflake account from your laptop.
+If you prefer to work locally, you can use this [Jupyter Notebook](https://github.com/pietrostefani/pop-displacement-disaster/blob/main/local-notebook.ipynb) that has the information needed for you to connect to your Snowflake account from your laptop.
