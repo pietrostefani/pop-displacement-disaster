@@ -1,45 +1,38 @@
 # Data Access {.unnumbered}
 
 ## Access your Snowflake account
+
 To access your Snowflake account follow the instructions here: *Coming Soon*
 
 ## Working in Snowflake
 
 Once you have access to your Snowflake account, to set up your Snowflake Notebook, follow the following steps:
 
-1. In the Home page, where you land when you log in, select **+ Create** > **Notebook** > **New Notebook** 
+1.  In the Home page, where you land when you log in, select **+ Create** \> **Notebook** \> **New Notebook**
 
 ::: {style="text-align: center;"}
 <img src="img/snow/create_notebook.png" width="400"/>
-
 :::
 
-
-2. In the pop up window, select the following options, then hit **Create** 
+2.  In the pop up window, select the following options, then hit **Create**
 
 ::: {style="text-align: center;"}
 <img src="img/snow/notebook_options.png" width="400"/>
-
 :::
 
-
-3. In the **Databases** tab, you'll find all the datasets available to you inside the `PAKISTAN_FLOODS_2022_DATA` database. Note the Schemas align to the dataset categories shared on the Data page
+3.  In the **Databases** tab, you'll find all the datasets available to you inside the `PAKISTAN_FLOODS_2022_DATA` database. Note the Schemas align to the dataset categories shared on the Data page
 
 ::: {style="text-align: center;"}
 <img src="img/snow/databases.png" width="400"/>
-
 :::
 
-
-4. Navigate to the top right **Packages** dropdown to install your favourite Python packages from the [Snowflake Conda Channel](https://repo.anaconda.com/pkgs/snowflake/) for you to use
+4.  Navigate to the top right **Packages** dropdown to install your favourite Python packages from the [Snowflake Conda Channel](https://repo.anaconda.com/pkgs/snowflake/) for you to use
 
 ::: {style="text-align: center;"}
 <img src="img/snow/anaconda_packages.png" width="400"/>
-
 :::
 
-
-5. Your Snowflake Notebook is ready to go! Create Markdown, SQL or Python cells to support you on your mission!
+5.  Your Snowflake Notebook is ready to go! Create Markdown, SQL or Python cells to support you on your mission!
 
 ## Working locally
 

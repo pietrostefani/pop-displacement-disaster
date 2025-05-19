@@ -292,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td><strong>Community Needs Identification Data</strong></td>
 <td>IOM</td>
-<td><p>Division</p>
+<td><p>Province</p>
 <p>District</p>
 <p>Tehsil</p>
 <p>Village/settlement</p></td>
@@ -339,7 +339,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>These data are collated and published by the IOM’s Displacement Tracking Matrix (DTM) team. The primary data produced for Pakistan by the IOM in the context of the 2022 floods are the Flood Response Community Needs Identification (CNI) datasets. These data are collated and published in rounds; six rounds have been run so far, though data for Round 5 is not publicly available.</p></li>
 <li><p>The data for all 5 publicly available rounds can be found in <strong>Snowflake Schema:</strong> <code>IOM_CNI_DATA</code></p></li>
 <li><p>Data from the CNI is derived from key informant interviews and direct observations. It provides estimates for the number of temporarily displaced persons (TDPs), the number of returnees and other variables related to displaced populations for each village surveyed. A more detailed methodology for these data can be found in the reports below. These data are often very challenging to collect, and, as a result, each round does not cover the exact same areas, or collect the same level of data.</p></li>
-<li><p>The data are provided at the village/settlement level. Also included are variables for division, district and Tehsil. For the first two, codes are provided also to make them easier to be joined to spatial boundaries. These codes are p-codes, a geographic framework commonly used by the Office for the Coordination of Humanitarian Affairs (OCHA) to link data to administrative areas. <strong>These geographies and codes do not map onto those that the Facebook Population and Movement data are aggregated to.</strong> A short guide on the different geographies is provided at the end of this guidance page.</p></li>
+<li><p>The data are provided at the village/settlement level. Also included are variables for province, district and Tehsil. For the first two, codes are provided also to make them easier to be joined to spatial boundaries. These codes are p-codes, a geographic framework commonly used by the Office for the Coordination of Humanitarian Affairs (OCHA) to link data to administrative areas. <strong>These geographies and codes do not map onto those that the Facebook Population and Movement data are aggregated to.</strong> A short guide on the different geographies is provided at the end of this guidance page.</p></li>
 <li><p>For the Hackathon, each data round is provided. The data format and variable names vary slightly between rounds, though each generally provides similar variables and data. Alongside each round of data, a report is also published. Reports can be found here for each round:</p>
 <ul>
 <li><p><a href="https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-report-round-1-nov-dec-2022">Round 1 (Nov – Dec 2022)</a></p></li>
@@ -369,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>Aggregated population data:</p>
 <ul>
-<li>Population estimates for Pakistan for 2020 from the <a href="https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop">WorldPop</a> raster, aggregated (<em>total_pop</em>) to global administrative level 2, and the division and district polygons used by OCHA. The data is calculated by the project team using WorldPop data and spatial polygons provided by <a href="https://gadm.org/data.html">GADM</a> and <a href="https://data.humdata.org/dataset/cod-ab-pak">OCHA</a>.
+<li>Population estimates for Pakistan for 2020 from the <a href="https://data.humdata.org/dataset/8daa1794-a6ad-49fa-9c1e-0e032a90ecdc?force_layout=desktop">WorldPop</a> raster, aggregated (<em>total_pop</em>) to global administrative level 2, and the province and district polygons used by OCHA. The data is calculated by the project team using WorldPop data and spatial polygons provided by <a href="https://gadm.org/data.html">GADM</a> and <a href="https://data.humdata.org/dataset/cod-ab-pak">OCHA</a>.
 <ul>
 <li><strong>Snowflake Schema:</strong> <code>CONTEXTUAL_DATA</code></li>
 <li><strong>Snowflake Views:</strong> <code>POPULATION_PAKISTAN_2020_*</code></li>
@@ -377,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>Socioeconomic data:</p>
 <ul>
-<li>Deprivation data from The Global Gridded Relative Deprivation Index (<a href="https://earth.gov/data-catalog/grdi-v1">GRDI</a>). The data is a raster file at 1km resolution, cropped to Pakistan. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed <a href="https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf">here</a>. These have also been aggregated to global administrative level 2 and the division and district polygons used by OCHA by computing the mean value (<em>mean_rdi</em>) within the polygon from the GRDI raster data.
+<li>Deprivation data from The Global Gridded Relative Deprivation Index (<a href="https://earth.gov/data-catalog/grdi-v1">GRDI</a>). The data is a raster file at 1km resolution, cropped to Pakistan. Data are on a 0-100 scale, with high values indicating higher relative levels of deprivation. Complete documentation for the data can be accessed <a href="https://sedac.ciesin.columbia.edu/downloads/docs/povmap/povmap-grdi-v1-documentation.pdf">here</a>. These have also been aggregated to global administrative level 2 and the province and district polygons used by OCHA by computing the mean value (<em>mean_rdi</em>) within the polygon from the GRDI raster data.
 <ul>
 <li><strong>Snowflake Schema:</strong> <code>CONTEXTUAL_DATA</code></li>
 <li><strong>Snowflake Views:</strong> <code>GRDI_*</code></li>
@@ -408,7 +408,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Snowflake Schema:</strong> <code>SPATIAL_BOUNDARIES</code></li>
 <li><strong>Snowflake Views:</strong> <code>PAKISTAN_GADM_ADMIN_LEVEL_POLYGONS</code></li>
 </ul></li>
-<li>Spatial polygons used by OCHA for subnational boundaries of Pakistan. Data is shapefiles for divisions (adm1), districts (adm2) and tehsils (adm3), sourced from <a href="https://data.humdata.org/dataset/cod-ab-pak">OCHA</a>. These boundaries can be joined to the spatial variable codes in the IOM CNI data for divisions and districts, as well as the population and deprivation data aggregated to OCHA administrative level 1 and 2, and to the WFP climate data.
+<li>Spatial polygons used by OCHA for subnational boundaries of Pakistan. Data is shapefiles for provinces (adm1), districts (adm2) and tehsils (adm3), sourced from <a href="https://data.humdata.org/dataset/cod-ab-pak">OCHA</a>. These boundaries can be joined to the spatial variable codes in the IOM CNI data for provinces and districts, as well as the population and deprivation data aggregated to OCHA administrative level 1 and 2, and to the WFP climate data.
 <ul>
 <li><strong>Snowflake Schema:</strong> <code>SPATIAL_BOUNDARIES</code></li>
 <li><strong>Snowflake Views:</strong> <code>PAKISTAN_OCHA_ADMIN_LEVEL_POLYGONS</code></li>
@@ -468,7 +468,7 @@ ul.task-list li input[type="checkbox"] {
 <td><p>start_quadkey</p>
 <p>end_quadkey</p></td>
 <td><p>Origin 800m tile</p>
-<p>Destination 800m tile</p></td>
+<p>Destination 880m tile</p></td>
 <td>Quadkey polygons (<strong>quadkey</strong>)</td>
 </tr>
 <tr class="even">
@@ -479,9 +479,9 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>IOM CNI Data</td>
-<td><p>DivisonCode/Pcode/PCODE; or Admin3 pcode</p>
+<td><p>ProvinceCode/Pcode/PCODE; or Admin1 pcode</p>
 <p>District Code/Pcode/PCODE; or Admin2 pcode</p></td>
-<td><p>Division (adm1) polygon</p>
+<td><p>Province (adm1) polygon</p>
 <p>District (adm2) polygon</p></td>
 <td>OCHA subnational polygons (<strong>ADM1_PCODE</strong>) (<strong>ADM2_PCODE</strong>)</td>
 </tr>
@@ -501,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Aggregated Population Data (ocha_1 and ocha_2)</td>
 <td><p>ADM1_PCODE</p>
 <p>ADM2_PCODE</p></td>
-<td><p>Division (adm1) polygon</p>
+<td><p>Province (adm1) polygon</p>
 <p>District (adm2) polygon</p></td>
 <td>OCHA subnational polygons (<strong>ADM1_PCODE</strong>)(<strong>ADM2_PCODE</strong>)</td>
 </tr>
@@ -515,7 +515,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Aggregated Global Relative Deprivation Index Data (GRDI) (ocha_1 and ocha_2)</td>
 <td><p>ADM1_PCODE</p>
 <p>ADM2_PCODE</p></td>
-<td><p>Division (adm1) polygon</p>
+<td><p>Province (adm1) polygon</p>
 <p>District (adm2) polygon</p></td>
 <td>OCHA subnational polygons (<strong>ADM1_PCODE</strong>)(<strong>ADM2_PCODE</strong>)</td>
 </tr>
