@@ -22,4 +22,4 @@ Here are some useful places to look before and during the hackathon:
 
 ### Demos and more content
 
-Check out this event page for some handpicked content: *coming soon*
+Check out **lab instructions** on [this event page](https://go.dataops.live/displacement-in-disaster-region) for some handpicked content
