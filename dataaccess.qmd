@@ -2,7 +2,7 @@
 
 ## Access your Snowflake account
 
-To access your Snowflake account follow the instructions here: *Coming Soon*
+To access your Snowflake account follow the instructions on this [link](https://go.dataops.live/displacement-in-disaster-region) that will provide you with a temporary account and access to the data for the Hackathon. 
 
 ## Working in Snowflake
 
